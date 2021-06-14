@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: PeriHPX  software toolkit
-email: nlmech-fellows@googlegroups.com
+email: perihpx-fellows@googlegroups.com
 description: >- # this means to ignore newlines until "baseurl:"
   We are a collobaration of researchers developing a simulation code for non local models accelerated by the C++
   standard library for parallism and concurrency (HPX).
