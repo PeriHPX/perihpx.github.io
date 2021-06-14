@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Non local models software toolkit
+title: PeriHPX  software toolkit
 email: nlmech-fellows@googlegroups.com
 description: >- # this means to ignore newlines until "baseurl:"
   We are a collobaration of researchers developing a simulation code for non local models accelerated by the C++
@@ -21,7 +21,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
-github_username:  nonlocalmodels
+github_username:  perihpx
 
 # Build settings
 markdown: kramdown
