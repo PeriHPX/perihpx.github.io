@@ -10,7 +10,7 @@ The code [![GitHub release](https://img.shields.io/github/release/nonlocalmodels
 
 The latest documentation is available [here](https://perihpx.github.io/documentation/).
 
-The code uses the C++ standard library for parallelism and concurrency ([HPX](https://github.com/STEllAR-GROUP)) for its parallel and distributed implementation. 
+The code uses the C++ standard library for parallelism and concurrency ([HPX](https://github.com/STEllAR-GROUP)) for its parallel and distributed implementation. For more details, we refer to [![DOI](https://joss.theoj.org/papers/10.21105/joss.02352/status.svg)](https://doi.org/10.21105/joss.02352). 
 
 Following packages are available:
 
