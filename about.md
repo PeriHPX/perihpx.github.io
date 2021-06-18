@@ -23,5 +23,5 @@ Please cite following publications, if you use the code
 
 and for more [publications](https://perihpx.github.io/publications/), we refer to. 
 
-Following mailing lists are available to contact the community: for [developers](https://groups.google.com/g/perihpx-developers), for [users](https://groups.google.com/g/perihpx-users), and for contacting the [core developers](https://groups.google.com/g/perihpx-fellows).
+Following mailing lists are available to contact the community: for [developers](https://groups.google.com/g/perihpx-developers), for [users](https://groups.google.com/g/perihpx-users), and for contacting the [core developers](https://groups.google.com/g/perihpx-fellows). For some more interactive experience, please join the irc channel `#perihpx` on [libera.chat](https://web.libera.chat).  
 
