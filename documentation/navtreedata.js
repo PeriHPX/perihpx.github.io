@@ -24,37 +24,60 @@
 */
 var NAVTREE =
 [
-  [ "NLMech", "index.html", [
-    [ "Introduction", "index.html#autotoc_md14", null ],
-    [ "Documentation and getting started", "index.html#autotoc_md15", null ],
-    [ "Installation", "index.html#autotoc_md16", [
-      [ "Dependencies", "index.html#autotoc_md17", null ],
-      [ "Building dependencies", "index.html#autotoc_md18", null ],
-      [ "Compiling library", "index.html#autotoc_md19", null ]
+  [ "PeriHPX", "index.html", [
+    [ "Introduction", "index.html#autotoc_md31", null ],
+    [ "Documentation and getting started", "index.html#autotoc_md32", null ],
+    [ "Installation", "index.html#autotoc_md33", [
+      [ "Build tools", "index.html#autotoc_md34", null ],
+      [ "Dependencies", "index.html#autotoc_md35", null ],
+      [ "Building dependencies", "index.html#autotoc_md36", null ],
+      [ "Compiling library", "index.html#autotoc_md37", null ]
     ] ],
-    [ "Running NLMech", "index.html#autotoc_md20", null ],
-    [ "Trouble, issues, bugs", "index.html#autotoc_md21", null ],
-    [ "Releases", "index.html#autotoc_md22", null ],
-    [ "Code of conduct", "index.html#autotoc_md23", null ],
-    [ "Contributing", "index.html#autotoc_md24", null ],
-    [ "Citing", "index.html#autotoc_md25", null ],
-    [ "Acknowledgments", "index.html#autotoc_md26", null ],
-    [ "References", "index.html#autotoc_md27", null ],
+    [ "Running PeriHPX", "index.html#autotoc_md38", null ],
+    [ "Trouble, issues, bugs", "index.html#autotoc_md39", null ],
+    [ "Releases", "index.html#autotoc_md40", null ],
+    [ "Code of conduct", "index.html#autotoc_md41", null ],
+    [ "Contributing", "index.html#autotoc_md42", null ],
+    [ "Citing", "index.html#autotoc_md43", null ],
+    [ "Acknowledgments", "index.html#autotoc_md44", null ],
+    [ "References", "index.html#autotoc_md45", null ],
     [ "CMake options", "md_content_cmake_options.html", [
-      [ "NLMech", "md_content_cmake_options.html#autotoc_md1", null ],
+      [ "PeriHPX", "md_content_cmake_options.html#autotoc_md1", null ],
       [ "General options", "md_content_cmake_options.html#autotoc_md2", null ],
       [ "Dependencies", "md_content_cmake_options.html#autotoc_md3", null ]
     ] ],
     [ "Installation", "md_content_install_instructions.html", [
-      [ "Prerequisites", "md_content_install_instructions.html#autotoc_md5", null ],
-      [ "Using the HPCBuildInfrastructure", "md_content_install_instructions.html#autotoc_md6", [
-        [ "Build cmake", "md_content_install_instructions.html#autotoc_md7", null ],
-        [ "Build HPX", "md_content_install_instructions.html#autotoc_md8", null ],
-        [ "Build Blaze and blaze_iterative", "md_content_install_instructions.html#autotoc_md9", null ],
-        [ "Build VTK", "md_content_install_instructions.html#autotoc_md10", null ],
-        [ "Build yampl-cpp", "md_content_install_instructions.html#autotoc_md11", null ],
-        [ "Build NLMech", "md_content_install_instructions.html#autotoc_md12", null ]
+      [ "Prerequisites", "md_content_install_instructions.html#autotoc_md5", [
+        [ "Tools", "md_content_install_instructions.html#autotoc_md6", null ],
+        [ "Dependencies", "md_content_install_instructions.html#autotoc_md7", null ]
+      ] ],
+      [ "Using the HPCBuildInfrastructure", "md_content_install_instructions.html#autotoc_md8", [
+        [ "Build cmake", "md_content_install_instructions.html#autotoc_md9", null ],
+        [ "Build HPX", "md_content_install_instructions.html#autotoc_md10", null ],
+        [ "Build Blaze and blaze_iterative", "md_content_install_instructions.html#autotoc_md11", null ],
+        [ "Build VTK", "md_content_install_instructions.html#autotoc_md12", null ],
+        [ "Build yampl-cpp", "md_content_install_instructions.html#autotoc_md13", null ],
+        [ "Build PeriHPX", "md_content_install_instructions.html#autotoc_md14", null ]
       ] ]
+    ] ],
+    [ "Configuration file", "md_content_yaml_options.html", [
+      [ "Mesh generation", "md_content_yaml_options.html#autotoc_md16", [
+        [ "Output", "md_content_yaml_options.html#autotoc_md17", null ],
+        [ "Domain", "md_content_yaml_options.html#autotoc_md18", null ]
+      ] ],
+      [ "Simulation", "md_content_yaml_options.html#autotoc_md19", [
+        [ "Model deck", "md_content_yaml_options.html#autotoc_md20", null ],
+        [ "Restart", "md_content_yaml_options.html#autotoc_md21", null ],
+        [ "Mesh", "md_content_yaml_options.html#autotoc_md22", null ],
+        [ "Output", "md_content_yaml_options.html#autotoc_md23", null ],
+        [ "Boundary conditions", "md_content_yaml_options.html#autotoc_md24", null ],
+        [ "Fracture", "md_content_yaml_options.html#autotoc_md25", null ]
+      ] ]
+    ] ],
+    [ "Brief overview of the equations", "md_content_equations.html", [
+      [ "Governing equations", "md_content_equations.html#autotoc_md27", null ],
+      [ "Discretization", "md_content_equations.html#autotoc_md28", null ],
+      [ "References", "md_content_equations.html#autotoc_md29", null ]
     ] ],
     [ "Todo List", "todo.html", null ],
     [ "Modules", "modules.html", "modules" ],
@@ -86,13 +109,13 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"Config_8h_source.html",
-"classfe_1_1TriElem.html#af9752d0cc25622f593ee8ac19fd990b3",
-"classmaterial_1_1pd_1_1RNPBond.html#a555780b70d1ccc1baed1e530a6925b78",
-"dampingGeom_8h_source.html",
-"namespacerw_1_1reader.html#a647a1916f5c27c85d4961fcf973b9d5b",
-"structinp_1_1MassMatrixDeck.html#ac244a8a5433a8d8ab8584e910acc573c",
-"structutil_1_1Point3.html#a91f668bc8937cb699feb4c72e5635558"
+"",
+"classfe_1_1TriElem.html#ababf2fd56dbfa0d40e8808ee6526c5f2",
+"classmaterial_1_1pd_1_1RNPBond.html#a2a4b964b8e30bfaa2f8645bc5e7f9c2c",
+"classutil_1_1StateBasedHelperFunctions.html#a62a2fb2d49ebeb06a564838d0f6c3565",
+"namespacefe.html",
+"structinp_1_1InitialConditionDeck.html#ac9657ec7a21e2d9e683ccd3a2a46672f",
+"structutil_1_1Point3.html#a345bca0e2f931f52b28093c636aad6b6"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
