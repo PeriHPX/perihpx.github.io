@@ -10,9 +10,9 @@ some of them are taken from publications. We hope that these examples provide yo
 
 * [Crack propagation in Glass material](/examples/fd-crack-glass-material.html)
 
-* [Deformation of 2-d Logo](/examples/fd-logo-soft-material.html)
+* [Deformation of 2-d Logo](/examples/fd-logo-soft-material.html) (Old logo of the base code)
 
-* [Deformation of 2-d Logo - 2](/examples/fd-logo-soft-material-2.html)
+* [Deformation of 2-d Logo - 2](/examples/fd-logo-soft-material-2.html) (Old logo of the base code)
 
 ## Quasi-static model
 
