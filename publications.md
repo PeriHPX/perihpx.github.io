@@ -22,3 +22,4 @@ permalink: /publications/
 
 * Birner, Matthias, et al. "A Fracture Multiscale Model for Peridynamic enrichment within the Partition of Unity Method: Part I." arXiv preprint [arXiv:2108.02336](https://arxiv.org/abs/2108.02336) (2021).
 * Bhattacharya, Debdeep, Patrick Diehl, and Robert P. Lipton. "Peridynamics for Quasistatic Fracture Modeling." arXiv preprint [arXiv:2107.14665](https://arxiv.org/abs/2107.14665) (2021).
+* Diehl, P., & Lipton, R. (2021, September 30). Quasistatic Fracture using Nonliner-Nonlocal Elastostatics with Explicit Tangent Stiffness Matrix. [https://doi.org/10.31224/osf.io/3je6b](https://arxiv.org/abs/2107.14665)
