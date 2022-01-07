@@ -1,8 +1,5 @@
 var NAVTREEINDEX3 =
 {
-"classutil_1_1StateBasedHelperFunctions.html#a62a2fb2d49ebeb06a564838d0f6c3565":[8,0,9,2,0],
-"compare_8h_source.html":[9,0,0,9,0],
-"compute_8h_source.html":[9,0,1,1,0,0],
 "dampingGeom_8h_source.html":[9,0,0,2,0],
 "dir_0431d99607be6449c1f5df5878fe5e77.html":[9,0,0,8,0],
 "dir_08713bae50e78487ae9bf173f8407675.html":[9,0,1,1],
@@ -44,8 +41,8 @@ var NAVTREEINDEX3 =
 "functions_d.html":[8,3,0,3],
 "functions_e.html":[8,3,0,4],
 "functions_f.html":[8,3,0,5],
-"functions_func.html":[8,3,1],
 "functions_func.html":[8,3,1,0],
+"functions_func.html":[8,3,1],
 "functions_func_b.html":[8,3,1,1],
 "functions_func_c.html":[8,3,1,2],
 "functions_func_d.html":[8,3,1,3],
@@ -85,8 +82,8 @@ var NAVTREEINDEX3 =
 "functions_t.html":[8,3,0,18],
 "functions_u.html":[8,3,0,19],
 "functions_v.html":[8,3,0,20],
-"functions_vars.html":[8,3,2,0],
 "functions_vars.html":[8,3,2],
+"functions_vars.html":[8,3,2,0],
 "functions_vars_j.html":[8,3,2,1],
 "functions_vars_s.html":[8,3,2,2],
 "functions_w.html":[8,3,0,21],
@@ -110,8 +107,8 @@ var NAVTREEINDEX3 =
 "group__Explicit.html#ga3e5e2e5d2337d4819403744b7d148bf8":[6,0,16],
 "group__Explicit.html#ga495c2471ebc8f872d07a546a1d401fb7":[6,0,1,21],
 "group__Explicit.html#ga495c2471ebc8f872d07a546a1d401fb7":[6,0,23],
-"group__Explicit.html#ga52963602fb972cb182d0e43eca33e5f5":[6,0,13],
 "group__Explicit.html#ga52963602fb972cb182d0e43eca33e5f5":[6,0,1,12],
+"group__Explicit.html#ga52963602fb972cb182d0e43eca33e5f5":[6,0,13],
 "group__Explicit.html#ga5d66c94e53b43b66e0a8684c37539267":[6,0,1,10],
 "group__Explicit.html#ga5d66c94e53b43b66e0a8684c37539267":[6,0,11],
 "group__Explicit.html#ga6bb401f1626873eb129000b30587cc84":[6,0,1,19],
@@ -171,8 +168,8 @@ var NAVTREEINDEX3 =
 "group__GlobalVars.html#gaaf818abcf2e295469e83febee18ecf08":[6,1,4],
 "group__GlobalVars.html#gaaf818abcf2e295469e83febee18ecf08":[7,0,10,45],
 "group__GlobalVars.html#gab2f37595c3a1570555140d7586708820":[7,0,10,51],
-"group__GlobalVars.html#gac5d891665814c25e21200e25fcb92da1":[6,1,5],
 "group__GlobalVars.html#gac5d891665814c25e21200e25fcb92da1":[7,0,10,57],
+"group__GlobalVars.html#gac5d891665814c25e21200e25fcb92da1":[6,1,5],
 "group__GlobalVars.html#gacddc1ccd1243c2107ae2c05911c1c8f7":[7,0,10,43],
 "group__GlobalVars.html#gad180ef5cacd5e2db2cc88e96994a93f4":[7,0,10,37],
 "group__GlobalVars.html#gaeb2249be4daeeecaf740dbb4bb7c0f74":[7,0,10,41],
@@ -249,5 +246,8 @@ var NAVTREEINDEX3 =
 "models_8h_source.html":[9,0,0,6,3],
 "modules.html":[6],
 "mshReader_8h_source.html":[9,0,0,7,1],
-"mshWriter_8h_source.html":[9,0,0,7,2]
+"mshWriter_8h_source.html":[9,0,0,7,2],
+"namespacedata.html":[7,0,0],
+"namespacefe.html":[7,0,1],
+"namespacegeometry.html":[7,0,2]
 };
