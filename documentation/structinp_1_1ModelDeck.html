@@ -100,7 +100,7 @@ Collaboration diagram for inp::ModelDeck:</div>
 <div class="dyncontent">
 <div class="center"><img src="structinp_1_1ModelDeck__coll__graph.png" border="0" usemap="#ainp_1_1ModelDeck_coll__map" alt="Collaboration graph"/></div>
 <map name="ainp_1_1ModelDeck_coll__map" id="ainp_1_1ModelDeck_coll__map">
-<area shape="rect" title="Structure to read and store model related input data." alt="" coords="5,5,192,259"/>
+<area shape="rect" title="Structure to read and store model related input data." alt="" coords="5,5,192,273"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -143,6 +143,9 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="stru
 size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structinp_1_1ModelDeck.html#a579defdeae1d5e40ee7709c11adcd036">d_Nt</a></td></tr>
 <tr class="memdesc:a579defdeae1d5e40ee7709c11adcd036"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of time steps. <br /></td></tr>
 <tr class="separator:a579defdeae1d5e40ee7709c11adcd036"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5567e00d2423db0677985ecb39a7e9ac"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structinp_1_1ModelDeck.html#a5567e00d2423db0677985ecb39a7e9ac">d_RelaxN</a></td></tr>
+<tr class="memdesc:a5567e00d2423db0677985ecb39a7e9ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Time steps for the relaxation.  <a href="structinp_1_1ModelDeck.html#a5567e00d2423db0677985ecb39a7e9ac">More...</a><br /></td></tr>
+<tr class="separator:a5567e00d2423db0677985ecb39a7e9ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d45f0fa30430ad672a85de4e09144ca"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structinp_1_1ModelDeck.html#a3d45f0fa30430ad672a85de4e09144ca">d_rh</a></td></tr>
 <tr class="memdesc:a3d45f0fa30430ad672a85de4e09144ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ratio of Horizon to mesh size.  <a href="structinp_1_1ModelDeck.html#a3d45f0fa30430ad672a85de4e09144ca">More...</a><br /></td></tr>
 <tr class="separator:a3d45f0fa30430ad672a85de4e09144ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -285,6 +288,23 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <h2 class="groupheader">Field Documentation</h2>
+<a id="a5567e00d2423db0677985ecb39a7e9ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5567e00d2423db0677985ecb39a7e9ac">&#9670;&nbsp;</a></span>d_RelaxN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t inp::ModelDeck::d_RelaxN</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Time steps for the relaxation. </p>
+<p>After the final amount of time steps is reached the laod drops to zero and the simulation proceeds without any load. </p>
+
+</div>
+</div>
 <a id="a3d45f0fa30430ad672a85de4e09144ca"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3d45f0fa30430ad672a85de4e09144ca">&#9670;&nbsp;</a></span>d_rh</h2>
 

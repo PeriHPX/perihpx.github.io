@@ -9,6 +9,7 @@ var structinp_1_1ModelDeck =
     [ "d_horizon", "structinp_1_1ModelDeck.html#ad7c0fea0d2ca13017ac187a4487bc56c", null ],
     [ "d_isRestartActive", "structinp_1_1ModelDeck.html#abeda2c5a3dd95fb16ac7f755e125c569", null ],
     [ "d_Nt", "structinp_1_1ModelDeck.html#a579defdeae1d5e40ee7709c11adcd036", null ],
+    [ "d_RelaxN", "structinp_1_1ModelDeck.html#a5567e00d2423db0677985ecb39a7e9ac", null ],
     [ "d_rh", "structinp_1_1ModelDeck.html#a3d45f0fa30430ad672a85de4e09144ca", null ],
     [ "d_simType", "structinp_1_1ModelDeck.html#a9833170eb369d461e154b0a13a724bcd", null ],
     [ "d_spatialDiscretization", "structinp_1_1ModelDeck.html#aac24a60d114c6d9e76b3fd470eff1a73", null ],
