@@ -1,5 +1,11 @@
 var NAVTREEINDEX6 =
 {
+"structutil_1_1Matrix3.html#abfa66ff013c7129624f2138c82134acb":[8,0,9,0,8],
+"structutil_1_1Matrix3.html#ac9a21746f1963c22b4c02004e977131e":[8,0,9,0,6],
+"structutil_1_1Point3.html":[8,0,9,1],
+"structutil_1_1Point3.html#a0c01ff20100b99b130d81f38ad93941e":[8,0,9,1,9],
+"structutil_1_1Point3.html#a0f11c6a33fe6a570a36152dac3c188b2":[8,0,9,1,5],
+"structutil_1_1Point3.html#a2066f7e058a5db41e0c9085fb9f3a99e":[8,0,9,1,29],
 "structutil_1_1Point3.html#a20e34767f3d52930021ecd28bf750a5d":[8,0,9,1,33],
 "structutil_1_1Point3.html#a30b757f35694002036bb0ef4af67940f":[8,0,9,1,17],
 "structutil_1_1Point3.html#a345bca0e2f931f52b28093c636aad6b6":[8,0,9,1,28],

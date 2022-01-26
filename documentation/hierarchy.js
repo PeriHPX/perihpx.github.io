@@ -65,6 +65,7 @@ var hierarchy =
     [ "model::Output", "classmodel_1_1Output.html", null ],
     [ "inp::OutputDeck", "structinp_1_1OutputDeck.html", null ],
     [ "util::Point3", "structutil_1_1Point3.html", null ],
+    [ "geometry::PointCloud", "structgeometry_1_1PointCloud.html", null ],
     [ "inp::Policy", "classinp_1_1Policy.html", null ],
     [ "inp::PolicyDeck", "structinp_1_1PolicyDeck.html", null ],
     [ "fe::QuadData", "structfe_1_1QuadData.html", null ],

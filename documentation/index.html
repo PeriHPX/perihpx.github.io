@@ -160,16 +160,6 @@ Dependencies</h2>
 <p>On Fedora you might install all dependencies using the package manager</p>
 <div class="fragment"><div class="line">dnf install hpx-devel cmake blaze-devel vtk-devel yaml-cpp-devel gmsh-devel</div>
 </div><!-- fragment --><p>Note on Fedora, you need only to install Blaze_Itertaive.</p>
-<p>Following dependencies are optional, but are recommended for the large simulations:</p><ul>
-<li><a href="https://github.com/PointCloudLibrary/pcl">PCL</a> 1.11<ul>
-<li>Used in neighbor search calculation (KDTree)</li>
-</ul>
-</li>
-<li><a href="https://github.com/flann-lib/flann">Flann</a> 1.9<ul>
-<li>Required to build PCL library</li>
-</ul>
-</li>
-</ul>
 <h2><a class="anchor" id="autotoc_md36"></a>
 Building dependencies</h2>
 <p>Building above dependencies is quite a challenge. To help with this, we provide the bash scripts for Ubuntu-20.04 and Fedor operating systems: <a href="https://github.com/perihpx/buildscripts/tree/main/bash">Bash scripts</a>).</p>
@@ -189,21 +179,18 @@ Compiling library</h2>
 <div class="line">cd PeriHPX</div>
 <div class="line">mkdir build &amp;&amp; cd build </div>
 <div class="line"> </div>
-<div class="line"># turn building documentation and tools, dependency on PCL off by using &#39;OFF&#39; instead of &#39;ON&#39;</div>
+<div class="line"># turn building documentation and tools &#39;ON&#39;</div>
 <div class="line">cmake -DCMAKE_BUILD_TYPE=Release \</div>
 <div class="line">      -DEnable_Documentation=ON \</div>
 <div class="line">      -DEnable_Tools=ON \</div>
-<div class="line">      -DEnable_PCL=ON \</div>
 <div class="line">      .. </div>
 <div class="line">      </div>
 <div class="line"># compile the code</div>
 <div class="line">make -j $(cat /proc/cpuinfo | grep processor | wc -l) VERBOSE=1</div>
-</div><!-- fragment --><p>In case certain libraries such as <code>HPX, PCL, Blaze_Iterative</code> are installed at custom paths, one would need to provide correct paths to <code>cmake</code> as follows: </p><div class="fragment"><div class="line">cmake -DCMAKE_BUILD_TYPE=Release \</div>
+</div><!-- fragment --><p>In case certain libraries such as <code>HPX, Blaze_Iterative</code> are installed at custom paths, one would need to provide correct paths to <code>cmake</code> as follows: </p><div class="fragment"><div class="line">cmake -DCMAKE_BUILD_TYPE=Release \</div>
 <div class="line">      -DEnable_Documentation=ON \</div>
 <div class="line">      -DEnable_Tools=ON \</div>
-<div class="line">      -DEnable_PCL=ON \</div>
 <div class="line">      -DHPX_DIR=&lt;hpx-path&gt;/lib/cmake/HPX \</div>
-<div class="line">      -DPCL_DIR=&lt;pcl-path&gt; \</div>
 <div class="line">      -DYAML_CPP_DIR=&lt;yaml-cpp-path&gt; \</div>
 <div class="line">      -DBLAZEITERATIVE_DIR=&lt;blaze-iterative path&gt; \</div>
 <div class="line">      -DGMSH_DIR=&lt;gmsh-path&gt; \</div>
@@ -255,7 +242,8 @@ Acknowledgments</h1>
 References</h1>
 <p>[1] Jha, P. K., &amp; Lipton, R. (2019). Numerical convergence of finite difference approximations for state based peridynamic fracture models. Computer Methods in Applied Mechanics and Engineering, 351, 184-225.</p>
 <p>[2] Jha, P. K., &amp; Lipton, R. P. (2020). Kinetic relations and local energy balance for LEFM from a nonlocal peridynamic model. International Journal of Fracture, 226(1), 81-95.</p>
-<p>[3] Diehl, P., Jha, P. K., Kaiser, H., Lipton, R., &amp; Lévesque, M. (2020). An asynchronous and task-based implementation of peridynamics utilizing HPX—the C++ standard library for parallelism and concurrency. SN Applied Sciences, 2(12), 1-21. </p>
+<p>[3] Diehl, P., Jha, P. K., Kaiser, H., Lipton, R., &amp; Lévesque, M. (2020). An asynchronous and task-based implementation of peridynamics utilizing HPX—the C++ standard library for parallelism and concurrency. SN Applied Sciences, 2(12), 1-21.</p>
+<p>For more references, we refer to the PeriHPX's <a href="http://perihpx.stellar-group.org/publications/">publication list</a>. </p>
 </div></div><!-- PageDoc -->
 </div><!-- contents -->
 </div><!-- doc-content -->

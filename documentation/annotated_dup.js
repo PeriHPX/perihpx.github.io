@@ -21,6 +21,7 @@ var annotated_dup =
       [ "Fracture", "classgeometry_1_1Fracture.html", "classgeometry_1_1Fracture" ],
       [ "InteriorFlags", "classgeometry_1_1InteriorFlags.html", "classgeometry_1_1InteriorFlags" ],
       [ "Neighbor", "classgeometry_1_1Neighbor.html", "classgeometry_1_1Neighbor" ],
+      [ "PointCloud", "structgeometry_1_1PointCloud.html", "structgeometry_1_1PointCloud" ],
       [ "VolumeCorrection", "classgeometry_1_1VolumeCorrection.html", "classgeometry_1_1VolumeCorrection" ]
     ] ],
     [ "inp", "namespaceinp.html", [
