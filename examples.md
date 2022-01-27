@@ -22,6 +22,7 @@ some of them are taken from publications. We hope that these examples provide yo
 ## Features
 
 * [Restart a simulation](/examples/restart.html)
+* [Relaxation of a simulation](/examples/fd-relaxation.html)
 
 ## Tools
 
