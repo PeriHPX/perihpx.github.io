@@ -100,7 +100,7 @@ Collaboration diagram for rw::writer::VtkWriter:</div>
 <div class="dyncontent">
 <div class="center"><img src="classrw_1_1writer_1_1VtkWriter__coll__graph.png" border="0" usemap="#arw_1_1writer_1_1VtkWriter_coll__map" alt="Collaboration graph"/></div>
 <map name="arw_1_1writer_1_1VtkWriter_coll__map" id="arw_1_1writer_1_1VtkWriter_coll__map">
-<area shape="rect" title="A vtk writer for simple point data and complex fem mesh data." alt="" coords="5,5,164,567"/>
+<area shape="rect" title="A vtk writer for simple point data and complex fem mesh data." alt="" coords="5,5,164,596"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -162,6 +162,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:aae0b9f31c4468d7527a69c7b3bd23806"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrw_1_1writer_1_1VtkWriter.html#aae0b9f31c4468d7527a69c7b3bd23806">addTimeStep</a> (const double &amp;timestep)</td></tr>
 <tr class="memdesc:aae0b9f31c4468d7527a69c7b3bd23806"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes the time step to the file.  <a href="classrw_1_1writer_1_1VtkWriter.html#aae0b9f31c4468d7527a69c7b3bd23806">More...</a><br /></td></tr>
 <tr class="separator:aae0b9f31c4468d7527a69c7b3bd23806"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Crack information</div></td></tr>
+<tr class="memitem:a8b4b0df1bc92e89eddd5a2bf8583af2c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrw_1_1writer_1_1VtkWriter.html#a8b4b0df1bc92e89eddd5a2bf8583af2c">writeInitialCrack</a> (const std::string &amp;filename, const std::string &amp;compress_type, <a class="el" href="structutil_1_1Point3.html">util::Point3</a> start, <a class="el" href="structutil_1_1Point3.html">util::Point3</a> end)</td></tr>
+<tr class="memdesc:a8b4b0df1bc92e89eddd5a2bf8583af2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes a file with the intital crack visualized as lines.  <a href="classrw_1_1writer_1_1VtkWriter.html#a8b4b0df1bc92e89eddd5a2bf8583af2c">More...</a><br /></td></tr>
+<tr class="separator:a8b4b0df1bc92e89eddd5a2bf8583af2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -780,6 +784,57 @@ vtkSmartPointer&lt; vtkXMLUnstructuredGridWriter &gt;&#160;</td><td class="memIt
   <table class="params">
     <tr><td class="paramname">name</td><td>Name of the data </td></tr>
     <tr><td class="paramname">data</td><td>Vector containing the data </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a8b4b0df1bc92e89eddd5a2bf8583af2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b4b0df1bc92e89eddd5a2bf8583af2c">&#9670;&nbsp;</a></span>writeInitialCrack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void rw::writer::VtkWriter::writeInitialCrack </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>filename</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>compress_type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structutil_1_1Point3.html">util::Point3</a>&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structutil_1_1Point3.html">util::Point3</a>&#160;</td>
+          <td class="paramname"><em>end</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Writes a file with the intital crack visualized as lines. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filename</td><td>Name of file which will be created </td></tr>
+    <tr><td class="paramname">compress_type</td><td>Compression type (optional) </td></tr>
+    <tr><td class="paramname">start</td><td>First point of the crack </td></tr>
+    <tr><td class="paramname">end</td><td>Last point of the crack </td></tr>
   </table>
   </dd>
 </dl>

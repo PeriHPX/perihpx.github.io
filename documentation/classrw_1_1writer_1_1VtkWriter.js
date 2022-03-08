@@ -17,6 +17,7 @@ var classrw_1_1writer_1_1VtkWriter =
     [ "appendPointData", "classrw_1_1writer_1_1VtkWriter.html#af3c56f9a591f1f2f6ae33846014ff062", null ],
     [ "appendPointData", "classrw_1_1writer_1_1VtkWriter.html#ab5de612efbb6ca9639704cc41ec4f613", null ],
     [ "close", "classrw_1_1writer_1_1VtkWriter.html#a5f8e9d6fd1d2723dc028722deafe6355", null ],
+    [ "writeInitialCrack", "classrw_1_1writer_1_1VtkWriter.html#a8b4b0df1bc92e89eddd5a2bf8583af2c", null ],
     [ "d_compressType", "classrw_1_1writer_1_1VtkWriter.html#a592641a26e06f0c0fe64009254f7f596", null ],
     [ "d_grid_p", "classrw_1_1writer_1_1VtkWriter.html#ae733750b82ced672eb3a4abf3f510add", null ],
     [ "d_writer_p", "classrw_1_1writer_1_1VtkWriter.html#a97ba81ff5b2456603ad442c9bec948f5", null ]

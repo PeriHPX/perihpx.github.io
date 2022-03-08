@@ -21,6 +21,7 @@ var classrw_1_1writer_1_1Writer =
     [ "checkLength", "classrw_1_1writer_1_1Writer.html#a00c2f9be38b974d06ad81494e2c124f3", null ],
     [ "close", "classrw_1_1writer_1_1Writer.html#ac448fb1c1505ec11c31be73d8996a1cf", null ],
     [ "open", "classrw_1_1writer_1_1Writer.html#a99073ac82c4547629307fb269235d051", null ],
+    [ "writeInitialCrack", "classrw_1_1writer_1_1Writer.html#aef760b91f29bbd99a45e6ddb8a77f9a9", null ],
     [ "d_format", "classrw_1_1writer_1_1Writer.html#a51a99ad27950d237680b0f49b39fc6ba", null ],
     [ "d_legacyVtkWriter_p", "classrw_1_1writer_1_1Writer.html#afa8c106421ccafdfc1061fdd008144ad", null ],
     [ "d_mshWriter_p", "classrw_1_1writer_1_1Writer.html#a13fc5442751923118b3384d9c11cc736", null ],

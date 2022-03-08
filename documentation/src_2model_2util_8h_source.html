@@ -103,44 +103,45 @@ $(document).ready(function(){initNavTree('src_2model_2util_8h_source.html',''); 
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#include &quot;inp/decks/outputDeck.h&quot;</span></div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &quot;inp/decks/policyDeck.h&quot;</span></div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#include &quot;inp/decks/restartDeck.h&quot;</span></div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &quot;rw/writer.h&quot;</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &quot;data/DataManager.h&quot;</span></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &quot;fe/mesh.h&quot;</span></div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#include &quot;util/point.h&quot;</span></div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#include &quot;inp/policy.h&quot;</span></div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#include &quot;geometry/neighbor.h&quot;</span></div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &quot;inp/decks/fractureDeck.h&quot;</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &quot;rw/writer.h&quot;</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &quot;data/DataManager.h&quot;</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#include &quot;fe/mesh.h&quot;</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#include &quot;util/point.h&quot;</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#include &quot;inp/policy.h&quot;</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#include &quot;geometry/neighbor.h&quot;</span></div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceinp.html">inp</a> {</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">struct </span>ModelDeck;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keyword">struct </span>OutputDeck;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keyword">struct </span>MeshDeck;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keyword">struct </span>PolicyDeck;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keyword">struct </span>RestartDeck;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="keyword">class </span>Policy;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;} <span class="comment">// namespace inp</span></div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacefe.html">fe</a> {</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="keyword">class </span>Mesh;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="comment">// class Quadrature;</span></div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;}<span class="comment">// namespace fe</span></div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacemodel.html">model</a> {</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
-<div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="classmodel_1_1Output.html">   44</a></span>&#160;<span class="keyword">class </span><a class="code" href="classmodel_1_1Output.html">Output</a>{</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="keyword">public</span>:  </div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<a class="code" href="classmodel_1_1Output.html#a5ac2b02d265f030db8178656bad23f1c">Output</a>(<a class="code" href="classinp_1_1Input.html">inp::Input</a> *d_input_p,<a class="code" href="classdata_1_1DataManager.html">data::DataManager</a> *d_dataManager_p, <span class="keywordtype">size_t</span> d_n, <span class="keywordtype">double</span> d_time);</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; </div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;};</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;}</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceinp.html">inp</a> {</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keyword">struct </span>ModelDeck;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keyword">struct </span>OutputDeck;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keyword">struct </span>MeshDeck;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keyword">struct </span>PolicyDeck;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="keyword">struct </span>RestartDeck;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="keyword">class </span>Policy;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;} <span class="comment">// namespace inp</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacefe.html">fe</a> {</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="keyword">class </span>Mesh;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="comment">// class Quadrature;</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;}<span class="comment">// namespace fe</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacemodel.html">model</a> {</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
+<div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="classmodel_1_1Output.html">   45</a></span>&#160;<span class="keyword">class </span><a class="code" href="classmodel_1_1Output.html">Output</a>{</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="keyword">public</span>:  </div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<a class="code" href="classmodel_1_1Output.html#a5ac2b02d265f030db8178656bad23f1c">Output</a>(<a class="code" href="classinp_1_1Input.html">inp::Input</a> *d_input_p,<a class="code" href="classdata_1_1DataManager.html">data::DataManager</a> *d_dataManager_p, <span class="keywordtype">size_t</span> d_n, <span class="keywordtype">double</span> d_time);</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;};</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; </div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;}</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aclassdata_1_1DataManager_html"><div class="ttname"><a href="classdata_1_1DataManager.html">data::DataManager</a></div><div class="ttdoc">Data manager to collect the global simulation data.</div><div class="ttdef"><b>Definition:</b> DataManager.h:58</div></div>
 <div class="ttc" id="aclassinp_1_1Input_html"><div class="ttname"><a href="classinp_1_1Input.html">inp::Input</a></div><div class="ttdoc">A class to read input file.</div><div class="ttdef"><b>Definition:</b> input.h:63</div></div>
-<div class="ttc" id="aclassmodel_1_1Output_html"><div class="ttname"><a href="classmodel_1_1Output.html">model::Output</a></div><div class="ttdoc">A class to handle model output.</div><div class="ttdef"><b>Definition:</b> util.h:44</div></div>
+<div class="ttc" id="aclassmodel_1_1Output_html"><div class="ttname"><a href="classmodel_1_1Output.html">model::Output</a></div><div class="ttdoc">A class to handle model output.</div><div class="ttdef"><b>Definition:</b> util.h:45</div></div>
 <div class="ttc" id="aclassmodel_1_1Output_html_a5ac2b02d265f030db8178656bad23f1c"><div class="ttname"><a href="classmodel_1_1Output.html#a5ac2b02d265f030db8178656bad23f1c">model::Output::Output</a></div><div class="ttdeci">Output(inp::Input *d_input_p, data::DataManager *d_dataManager_p, size_t d_n, double d_time)</div><div class="ttdoc">Outputs the iteration d_n to the file system.</div><div class="ttdef"><b>Definition:</b> util.cpp:5</div></div>
 <div class="ttc" id="anamespacefe_html"><div class="ttname"><a href="namespacefe.html">fe</a></div><div class="ttdoc">Collection of methods and data related to finite element and mesh.</div><div class="ttdef"><b>Definition:</b> baseElem.h:15</div></div>
 <div class="ttc" id="anamespaceinp_html"><div class="ttname"><a href="namespaceinp.html">inp</a></div><div class="ttdoc">Collection of methods and database related to input.</div><div class="ttdef"><b>Definition:</b> main.cpp:21</div></div>
