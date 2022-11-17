@@ -100,8 +100,8 @@ Collaboration diagram for inp::MaterialDeck:</div>
 <div class="dyncontent">
 <div class="center"><img src="structinp_1_1MaterialDeck__coll__graph.png" border="0" usemap="#ainp_1_1MaterialDeck_coll__map" alt="Collaboration graph"/></div>
 <map name="ainp_1_1MaterialDeck_coll__map" id="ainp_1_1MaterialDeck_coll__map">
-<area shape="rect" title="Structure to read and store material related data." alt="" coords="5,717,272,1015"/>
-<area shape="rect" href="structinp_1_1MatData.html" title="Structure for elastic properties and fracture properties." alt="" coords="78,5,199,655"/>
+<area shape="rect" title="Structure to read and store material related data." alt="" coords="5,717,221,971"/>
+<area shape="rect" href="structinp_1_1MatData.html" title="Structure for elastic properties and fracture properties." alt="" coords="53,5,174,655"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -144,6 +144,10 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="stru
 double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structinp_1_1MaterialDeck.html#a162ec91e338eebaa7f7b26213dc49acd">d_density</a></td></tr>
 <tr class="memdesc:a162ec91e338eebaa7f7b26213dc49acd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Density of material. <br /></td></tr>
 <tr class="separator:a162ec91e338eebaa7f7b26213dc49acd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e54538ab77beb9224ccfaff453a4739"><td class="memItemLeft" align="right" valign="top"><a id="a6e54538ab77beb9224ccfaff453a4739"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structinp_1_1MaterialDeck.html#a6e54538ab77beb9224ccfaff453a4739">d_has_disserpation</a></td></tr>
+<tr class="memdesc:a6e54538ab77beb9224ccfaff453a4739"><td class="mdescLeft">&#160;</td><td class="mdescRight">Falh to enable the disserpation. <br /></td></tr>
+<tr class="separator:a6e54538ab77beb9224ccfaff453a4739"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa4cb165f470a0492bc787efbccadadd0"><td class="memItemLeft" align="right" valign="top"><a id="aa4cb165f470a0492bc787efbccadadd0"></a>
 std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structinp_1_1MaterialDeck.html#aa4cb165f470a0492bc787efbccadadd0">d_influenceFnParams</a></td></tr>
 <tr class="memdesc:aa4cb165f470a0492bc787efbccadadd0"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of parameters for influence function. <br /></td></tr>
@@ -179,6 +183,14 @@ std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><
 size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structinp_1_1MaterialDeck.html#aaa3614130da9e7abd3010142a5f6a9e5">d_statePotentialType</a></td></tr>
 <tr class="memdesc:aaa3614130da9e7abd3010142a5f6a9e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of hydrostatic (state-based) potential. <br /></td></tr>
 <tr class="separator:aaa3614130da9e7abd3010142a5f6a9e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a330213b29e9e98c55dab433f2f55ba5a"><td class="memItemLeft" align="right" valign="top"><a id="a330213b29e9e98c55dab433f2f55ba5a"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structinp_1_1MaterialDeck.html#a330213b29e9e98c55dab433f2f55ba5a">d_vb_x</a></td></tr>
+<tr class="memdesc:a330213b29e9e98c55dab433f2f55ba5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disserpative constant in x direction. <br /></td></tr>
+<tr class="separator:a330213b29e9e98c55dab433f2f55ba5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae744506cbf701ddcdd95430493af7538"><td class="memItemLeft" align="right" valign="top"><a id="ae744506cbf701ddcdd95430493af7538"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structinp_1_1MaterialDeck.html#ae744506cbf701ddcdd95430493af7538">d_vb_y</a></td></tr>
+<tr class="memdesc:ae744506cbf701ddcdd95430493af7538"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disserpative constant in y direction. <br /></td></tr>
+<tr class="separator:ae744506cbf701ddcdd95430493af7538"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Structure to read and store material related data. </p>

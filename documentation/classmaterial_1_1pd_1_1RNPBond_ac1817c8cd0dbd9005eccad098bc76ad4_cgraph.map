@@ -1,11 +1,12 @@
 <map id="material::pd::RNPBond::RNPBond" name="material::pd::RNPBond::RNPBond">
-<area shape="rect" id="node1" title="Constructor." alt="" coords="5,295,169,337"/>
+<area shape="rect" id="node1" title="Constructor." alt="" coords="5,325,169,366"/>
 <area shape="rect" id="node2" href="$classmaterial_1_1pd_1_1RNPBond.html#a5c3f0bd34e37074edda9b9cc42bb758f" title="Computes elastic and fracture properties from the rnp material parameters." alt="" coords="217,74,419,115"/>
 <area shape="rect" id="node6" href="$classmaterial_1_1pd_1_1RNPBond.html#af079568a0690088248022d5d3be34031" title="Computes rnp material parameters from elastic constants." alt="" coords="236,201,400,242"/>
 <area shape="rect" id="node13" href="$classdata_1_1DataManager.html#af27bebcc8dfdc726e13dc4b87fe18c74" title=" " alt="" coords="243,266,393,307"/>
 <area shape="rect" id="node14" href="$classfe_1_1Mesh.html#a068ec3921531230930e56ab97bf840b7" title="Get the mesh size." alt="" coords="236,332,400,359"/>
 <area shape="rect" id="node15" href="$classdata_1_1DataManager.html#acd934f09c1c7ec39354148884cf6bd1c" title=" " alt="" coords="243,383,393,425"/>
 <area shape="rect" id="node16" href="$classmaterial_1_1pd_1_1BaseInfluenceFn.html#ae4ee97cda0fd36dc06cb0c9fb24072b1" title="Returns the moment of influence function." alt="" coords="221,449,415,490"/>
+<area shape="rect" id="node17" href="$classfe_1_1Mesh.html#aac3df3472139b865eda7406c1d1c3d77" title="Get the number of nodes." alt="" coords="230,515,406,541"/>
 <area shape="rect" id="node3" href="$structinp_1_1MatData.html#a887aa0af9281440040832a22adcc1925" title="Compute Young&#39;s modulus E from Lame first parameter lambda and Poisson&#39;s ratio nu." alt="" coords="467,5,645,32"/>
 <area shape="rect" id="node4" href="$structinp_1_1MatData.html#a31efc121179610c7e9a9f97758693131" title="Compute Bulk modulus K from Young&#39;s modulus K and Poisson&#39;s ratio nu." alt="" coords="491,107,621,133"/>
 <area shape="rect" id="node5" href="$structinp_1_1MatData.html#a25dde9c5e5597dafe1b20f997bbf8be1" title="Compute critical stress&#45;intensity factor KIc from critical energy release rate Gc,..." alt="" coords="485,56,627,83"/>

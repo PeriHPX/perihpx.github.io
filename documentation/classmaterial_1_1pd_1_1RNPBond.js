@@ -5,6 +5,7 @@ var classmaterial_1_1pd_1_1RNPBond =
     [ "computeParameters", "classmaterial_1_1pd_1_1RNPBond.html#af079568a0690088248022d5d3be34031", null ],
     [ "getBondEF", "classmaterial_1_1pd_1_1RNPBond.html#a2cbf5a6ba89d59dcbb13a6a9fdad0c48", null ],
     [ "getBondForceDirection", "classmaterial_1_1pd_1_1RNPBond.html#a2902466ba289e62b65dfbe74e7e4cd1d", null ],
+    [ "getDissipation", "classmaterial_1_1pd_1_1RNPBond.html#ae7e8a129f1cf99b1279213a50e5cbd9f", null ],
     [ "getInfFn", "classmaterial_1_1pd_1_1RNPBond.html#a8202d7fe4e42385b78c9b3e2b61faefd", null ],
     [ "getS", "classmaterial_1_1pd_1_1RNPBond.html#a02daeab156bedd9b0202de5ad09329de", null ],
     [ "getS", "classmaterial_1_1pd_1_1RNPBond.html#a98d590ae84b996b0b424634bde0978ca", null ],
@@ -20,5 +21,9 @@ var classmaterial_1_1pd_1_1RNPBond =
     [ "d_factorSc", "classmaterial_1_1pd_1_1RNPBond.html#a555780b70d1ccc1baed1e530a6925b78", null ],
     [ "d_invFactor", "classmaterial_1_1pd_1_1RNPBond.html#aee491249b88cf616cd3c33f442329923", null ],
     [ "d_irrevBondBreak", "classmaterial_1_1pd_1_1RNPBond.html#a340769e5a29c159758c79284344606c9", null ],
-    [ "d_rbar", "classmaterial_1_1pd_1_1RNPBond.html#ab9c4d45c434de015897d57d589f9d4b7", null ]
+    [ "d_mesh_size", "classmaterial_1_1pd_1_1RNPBond.html#ab4ebafeb0d6cdc89bebca09bbb1315b7", null ],
+    [ "d_num_nodes", "classmaterial_1_1pd_1_1RNPBond.html#ad1eced24dcc7fc9992c886258aa97180", null ],
+    [ "d_rbar", "classmaterial_1_1pd_1_1RNPBond.html#ab9c4d45c434de015897d57d589f9d4b7", null ],
+    [ "d_vb_x", "classmaterial_1_1pd_1_1RNPBond.html#ae6e42f179c8d4b2e16dfc83c287f97e3", null ],
+    [ "d_vb_y", "classmaterial_1_1pd_1_1RNPBond.html#a225c1cbdebdc3dc24f5364d0738731e6", null ]
 ];
