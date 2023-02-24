@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo_doxygen.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Version
-   &#160;<span id="projectnumber">0.1.4</span>
+   &#160;<span id="projectnumber">1.1.1</span>
    </div>
   </td>
  </tr>
@@ -100,7 +100,7 @@ Collaboration diagram for rw::reader::MshReader:</div>
 <div class="dyncontent">
 <div class="center"><img src="classrw_1_1reader_1_1MshReader__coll__graph.png" border="0" usemap="#arw_1_1reader_1_1MshReader_coll__map" alt="Collaboration graph"/></div>
 <map name="arw_1_1reader_1_1MshReader_coll__map" id="arw_1_1reader_1_1MshReader_coll__map">
-<area shape="rect" title="A class to read Gmsh (msh) mesh files." alt="" coords="5,5,172,171"/>
+<area shape="rect" title="A class to read Gmsh (msh) mesh files." alt="" coords="5,5,172,185"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -110,9 +110,9 @@ Public Member Functions</h2></td></tr>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrw_1_1reader_1_1MshReader.html#aac04abdaf46e268e9c747faab1e1a7cf">close</a> ()</td></tr>
 <tr class="memdesc:aac04abdaf46e268e9c747faab1e1a7cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Close the file. <br /></td></tr>
 <tr class="separator:aac04abdaf46e268e9c747faab1e1a7cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac19358f63becf6839c6471d2b233a808"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrw_1_1reader_1_1MshReader.html#ac19358f63becf6839c6471d2b233a808">MshReader</a> (const std::string &amp;filename)</td></tr>
-<tr class="memdesc:ac19358f63becf6839c6471d2b233a808"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="classrw_1_1reader_1_1MshReader.html#ac19358f63becf6839c6471d2b233a808">More...</a><br /></td></tr>
-<tr class="separator:ac19358f63becf6839c6471d2b233a808"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa081493c691c8b059198597c86501e1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrw_1_1reader_1_1MshReader.html#aaa081493c691c8b059198597c86501e1">MshReader</a> (const std::string &amp;filename, double gmsh_file_version)</td></tr>
+<tr class="memdesc:aaa081493c691c8b059198597c86501e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="classrw_1_1reader_1_1MshReader.html#aaa081493c691c8b059198597c86501e1">More...</a><br /></td></tr>
+<tr class="separator:aaa081493c691c8b059198597c86501e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d8a018026e3f439899ea3caab7191d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrw_1_1reader_1_1MshReader.html#a7d8a018026e3f439899ea3caab7191d6">readMesh</a> (size_t dim, std::vector&lt; <a class="el" href="structutil_1_1Point3.html">util::Point3</a> &gt; *nodes, size_t &amp;element_type, size_t &amp;num_elem, std::vector&lt; size_t &gt; *enc, std::vector&lt; std::vector&lt; size_t &gt;&gt; *nec, std::vector&lt; double &gt; *volumes, bool is_fd=false)</td></tr>
 <tr class="memdesc:a7d8a018026e3f439899ea3caab7191d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads mesh data into node file and element file.  <a href="classrw_1_1reader_1_1MshReader.html#a7d8a018026e3f439899ea3caab7191d6">More...</a><br /></td></tr>
 <tr class="separator:a7d8a018026e3f439899ea3caab7191d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -136,12 +136,16 @@ std::ifstream&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
 std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrw_1_1reader_1_1MshReader.html#a0d93d9c495ec908d191ddfbb904ff6a8">d_filename</a></td></tr>
 <tr class="memdesc:a0d93d9c495ec908d191ddfbb904ff6a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">filename <br /></td></tr>
 <tr class="separator:a0d93d9c495ec908d191ddfbb904ff6a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fb2328785bcb7433220f3b51fac2f92"><td class="memItemLeft" align="right" valign="top"><a id="a3fb2328785bcb7433220f3b51fac2f92"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrw_1_1reader_1_1MshReader.html#a3fb2328785bcb7433220f3b51fac2f92">d_gmsh_file_version</a></td></tr>
+<tr class="memdesc:a3fb2328785bcb7433220f3b51fac2f92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Version of the gmsh file format. <br /></td></tr>
+<tr class="separator:a3fb2328785bcb7433220f3b51fac2f92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A class to read Gmsh (msh) mesh files. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ac19358f63becf6839c6471d2b233a808"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac19358f63becf6839c6471d2b233a808">&#9670;&nbsp;</a></span>MshReader()</h2>
+<a id="aaa081493c691c8b059198597c86501e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa081493c691c8b059198597c86501e1">&#9670;&nbsp;</a></span>MshReader()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -153,8 +157,18 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
           <td class="memname">rw::reader::MshReader::MshReader </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>filename</em></td><td>)</td>
+          <td class="paramname"><em>filename</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>gmsh_file_version</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -168,6 +182,7 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">filename</td><td>Name of the mesh file </td></tr>
+    <tr><td class="paramname">gmsh_file_version</td><td>Version of the gmsh file format </td></tr>
   </table>
   </dd>
 </dl>

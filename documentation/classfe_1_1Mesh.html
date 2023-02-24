@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo_doxygen.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Version
-   &#160;<span id="projectnumber">0.1.4</span>
+   &#160;<span id="projectnumber">1.1.1</span>
    </div>
   </td>
  </tr>
@@ -249,9 +249,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Utility methods</div></td></tr>
-<tr class="memitem:a863edb74ce4395af44547551bd13ffbb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfe_1_1Mesh.html#a863edb74ce4395af44547551bd13ffbb">createData</a> (const std::string &amp;filename, bool ref_config, bool is_centroid_based, std::string has_coupling_data)</td></tr>
-<tr class="memdesc:a863edb74ce4395af44547551bd13ffbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads mesh data from the file and populates other data.  <a href="classfe_1_1Mesh.html#a863edb74ce4395af44547551bd13ffbb">More...</a><br /></td></tr>
-<tr class="separator:a863edb74ce4395af44547551bd13ffbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cb572f689a6b7fe9a5f189755795b34"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfe_1_1Mesh.html#a8cb572f689a6b7fe9a5f189755795b34">createData</a> (const std::string &amp;filename, const double gmsh_file_version, bool ref_config, bool is_centroid_based, std::string has_coupling_data)</td></tr>
+<tr class="memdesc:a8cb572f689a6b7fe9a5f189755795b34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads mesh data from the file and populates other data.  <a href="classfe_1_1Mesh.html#a8cb572f689a6b7fe9a5f189755795b34">More...</a><br /></td></tr>
+<tr class="separator:a8cb572f689a6b7fe9a5f189755795b34"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4944c0271ac8613ba58666143f79321b"><td class="memItemLeft" align="right" valign="top"><a id="a4944c0271ac8613ba58666143f79321b"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfe_1_1Mesh.html#a4944c0271ac8613ba58666143f79321b">nodesAtCentroid</a> ()</td></tr>
 <tr class="memdesc:a4944c0271ac8613ba58666143f79321b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts standard fem mesh to particle mesh with nodes at the center of element. <br /></td></tr>
@@ -420,11 +420,11 @@ Here is the call graph for this function:</div>
 <area shape="rect" title="Constructor." alt="" coords="5,81,124,108"/>
 <area shape="rect" href="classinp_1_1Policy.html#a06329dd627097de56dfeb761f1115558" title="Adds tag to specified level tag list." alt="" coords="193,5,349,32"/>
 <area shape="rect" href="classfe_1_1Mesh.html#a63a72abf6d18ebfa92750319c19c10dd" title="Compute the mesh size." alt="" coords="172,56,371,83"/>
-<area shape="rect" href="classfe_1_1Mesh.html#a863edb74ce4395af44547551bd13ffbb" title="Reads mesh data from the file and populates other data." alt="" coords="195,208,348,235"/>
+<area shape="rect" href="classfe_1_1Mesh.html#a8cb572f689a6b7fe9a5f189755795b34" title="Reads mesh data from the file and populates other data." alt="" coords="195,208,348,235"/>
 <area shape="rect" href="classinp_1_1Policy.html#a879f83a83b931d42e1c63ddf3d420bd5" title="Returns the pointer to static class. Creates instance in its first call." alt="" coords="449,107,615,133"/>
 <area shape="rect" href="namespaceutil_1_1compare.html#afbc9630e288fb337b0a67e3cf6df02c9" title="Compares if a is &lt; to b." alt="" coords="447,41,617,82"/>
 <area shape="rect" href="namespacerw_1_1reader.html#a4390356883ad2a4f14cb41c69cf3e5ca" title="Reads mesh data into node file and element file." alt="" coords="449,157,615,184"/>
-<area shape="rect" href="namespacerw_1_1reader.html#ae1d467da75a47df964d46c85fc1cd2ea" title="Reads mesh data into node file and element file." alt="" coords="447,208,617,235"/>
+<area shape="rect" href="namespacerw_1_1reader.html#a839f30f8c9e2061c2739f05c51cad8c1" title="Reads mesh data into node file and element file." alt="" coords="447,208,617,235"/>
 <area shape="rect" href="namespacerw_1_1reader.html#a79098cecf3c77855498e8322ec1bf3a8" title="Reads cell data, i.e. element&#45;node connectivity and node&#45;element connectivity." alt="" coords="435,259,629,285"/>
 <area shape="rect" href="namespacerw_1_1reader.html#a809c0856da41218f67c61b7d21f68464" title="Reads nodal coordinates." alt="" coords="429,309,635,336"/>
 <area shape="rect" href="namespacerw_1_1reader.html#ae911e20d8494352c2de082b59dc88f11" title="Reads data of specified tag from the vtu file." alt="" coords="419,360,645,387"/>
@@ -525,8 +525,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a863edb74ce4395af44547551bd13ffbb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a863edb74ce4395af44547551bd13ffbb">&#9670;&nbsp;</a></span>createData()</h2>
+<a id="a8cb572f689a6b7fe9a5f189755795b34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8cb572f689a6b7fe9a5f189755795b34">&#9670;&nbsp;</a></span>createData()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -539,6 +539,12 @@ Here is the call graph for this function:</div>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>filename</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>gmsh_file_version</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -577,6 +583,7 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">filename</td><td>Name of the mesh file </td></tr>
+    <tr><td class="paramname">gmsh_file_version</td><td>Version of the gmsh file format </td></tr>
     <tr><td class="paramname">ref_config</td><td>Base the mesh on reference configuration (obtain reference configuration using point data and displacement data) </td></tr>
     <tr><td class="paramname">is_centroid_based</td><td>Specify if we create node at the center of element </td></tr>
     <tr><td class="paramname">has_coupling_data</td><td>Specify if we read the additional data needed for coupling </td></tr>
@@ -588,12 +595,12 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classfe_1_1Mesh_a863edb74ce4395af44547551bd13ffbb_cgraph.png" border="0" usemap="#aclassfe_1_1Mesh_a863edb74ce4395af44547551bd13ffbb_cgraph" alt=""/></div>
-<map name="aclassfe_1_1Mesh_a863edb74ce4395af44547551bd13ffbb_cgraph" id="aclassfe_1_1Mesh_a863edb74ce4395af44547551bd13ffbb_cgraph">
+<div class="center"><img src="classfe_1_1Mesh_a8cb572f689a6b7fe9a5f189755795b34_cgraph.png" border="0" usemap="#aclassfe_1_1Mesh_a8cb572f689a6b7fe9a5f189755795b34_cgraph" alt=""/></div>
+<map name="aclassfe_1_1Mesh_a8cb572f689a6b7fe9a5f189755795b34_cgraph" id="aclassfe_1_1Mesh_a8cb572f689a6b7fe9a5f189755795b34_cgraph">
 <area shape="rect" title="Reads mesh data from the file and populates other data." alt="" coords="5,132,159,159"/>
 <area shape="rect" href="classinp_1_1Policy.html#a879f83a83b931d42e1c63ddf3d420bd5" title="Returns the pointer to static class. Creates instance in its first call." alt="" coords="237,5,403,32"/>
 <area shape="rect" href="namespacerw_1_1reader.html#a4390356883ad2a4f14cb41c69cf3e5ca" title="Reads mesh data into node file and element file." alt="" coords="237,56,403,83"/>
-<area shape="rect" href="namespacerw_1_1reader.html#ae1d467da75a47df964d46c85fc1cd2ea" title="Reads mesh data into node file and element file." alt="" coords="235,107,405,133"/>
+<area shape="rect" href="namespacerw_1_1reader.html#a839f30f8c9e2061c2739f05c51cad8c1" title="Reads mesh data into node file and element file." alt="" coords="235,107,405,133"/>
 <area shape="rect" href="namespacerw_1_1reader.html#a79098cecf3c77855498e8322ec1bf3a8" title="Reads cell data, i.e. element&#45;node connectivity and node&#45;element connectivity." alt="" coords="223,157,417,184"/>
 <area shape="rect" href="namespacerw_1_1reader.html#a809c0856da41218f67c61b7d21f68464" title="Reads nodal coordinates." alt="" coords="217,208,423,235"/>
 <area shape="rect" href="namespacerw_1_1reader.html#ae911e20d8494352c2de082b59dc88f11" title="Reads data of specified tag from the vtu file." alt="" coords="207,259,433,285"/>
@@ -602,8 +609,8 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classfe_1_1Mesh_a863edb74ce4395af44547551bd13ffbb_icgraph.png" border="0" usemap="#aclassfe_1_1Mesh_a863edb74ce4395af44547551bd13ffbb_icgraph" alt=""/></div>
-<map name="aclassfe_1_1Mesh_a863edb74ce4395af44547551bd13ffbb_icgraph" id="aclassfe_1_1Mesh_a863edb74ce4395af44547551bd13ffbb_icgraph">
+<div class="center"><img src="classfe_1_1Mesh_a8cb572f689a6b7fe9a5f189755795b34_icgraph.png" border="0" usemap="#aclassfe_1_1Mesh_a8cb572f689a6b7fe9a5f189755795b34_icgraph" alt=""/></div>
+<map name="aclassfe_1_1Mesh_a8cb572f689a6b7fe9a5f189755795b34_icgraph" id="aclassfe_1_1Mesh_a8cb572f689a6b7fe9a5f189755795b34_icgraph">
 <area shape="rect" title="Reads mesh data from the file and populates other data." alt="" coords="172,5,325,32"/>
 <area shape="rect" href="classfe_1_1Mesh.html#a0041afbb7d7e94bfb01c108e460196fb" title="Constructor." alt="" coords="5,5,124,32"/>
 </map>

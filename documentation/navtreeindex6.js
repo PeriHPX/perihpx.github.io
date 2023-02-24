@@ -1,5 +1,7 @@
 var NAVTREEINDEX6 =
 {
+"structutil_1_1Matrix3.html#a2c94bd0ecfc4865948feb3742201a4ff":[8,0,9,0,2],
+"structutil_1_1Matrix3.html#a3b7572051830b7826f372eefcc0a4815":[8,0,9,0,12],
 "structutil_1_1Matrix3.html#a556ba71d9b9913c29638c2a32eca20f4":[8,0,9,0,9],
 "structutil_1_1Matrix3.html#a5d3c4f935acfbb614820ab1d10900e41":[8,0,9,0,10],
 "structutil_1_1Matrix3.html#a701dced1ea6b35c1e624251368a89d6e":[8,0,9,0,13],
