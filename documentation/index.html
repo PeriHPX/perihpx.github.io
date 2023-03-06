@@ -107,7 +107,7 @@ Installation</h1>
 <h2><a class="anchor" id="autotoc_md34"></a>
 Build tools</h2>
 <p>The following build tools are needed to compile the PeriHPX and its dependencies:</p><ul>
-<li>GCC compiler collection (gcc) &gt; 4.9, however, gcc &gt;= 8 is recommended</li>
+<li>GCC compiler collection (gcc) &gt; 4.9, however, gcc &gt;= 10 is recommended</li>
 <li><a href="https://www.gnu.org/software/autoconf/">autoconf</a></li>
 <li><a href="https://www.gnu.org/software/wget/">wget</a></li>
 <li><a href="https://cmake.org/">cmake</a></li>
@@ -121,15 +121,15 @@ Build tools</h2>
 </div><!-- fragment --><h2><a class="anchor" id="autotoc_md35"></a>
 Dependencies</h2>
 <p>We use cmake to build the code. We list the dependencies and how they are used in the code below:</p><ul>
-<li><a href="https://cmake.org/">CMake</a> 3.16<ul>
+<li><a href="https://cmake.org/">CMake</a> 3.18<ul>
 <li>To generate makefiles</li>
 </ul>
 </li>
-<li><a href="https://www.boost.org/">Boost</a> 1.75<ul>
+<li><a href="https://www.boost.org/">Boost</a> 1.79<ul>
 <li>Required to build HPX and YAML libraries</li>
 </ul>
 </li>
-<li><a href="https://github.com/STEllAR-GROUP/hpx">HPX</a> 1.6.0<ul>
+<li><a href="https://github.com/STEllAR-GROUP/hpx">HPX</a> 1.7.1<ul>
 <li>Provides methods for multithreading computation</li>
 </ul>
 </li>
@@ -145,11 +145,11 @@ Dependencies</h2>
 <li>Our code directly interfaces with gmsh to use input-ouput functions of gmsh</li>
 </ul>
 </li>
-<li><a href="https://www.vtk.org">VTK</a> 9.0<ul>
+<li><a href="https://www.vtk.org">VTK</a> 9.2<ul>
 <li>For read-write operations on <code>.vtu</code> type files</li>
 </ul>
 </li>
-<li><a href="https://github.com/jbeder/yaml-cpp">YAML-CPP</a> 0.6<ul>
+<li><a href="https://github.com/jbeder/yaml-cpp">YAML-CPP</a> 0.7<ul>
 <li>To parse <code>.yaml</code> input files</li>
 </ul>
 </li>

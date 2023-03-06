@@ -195,7 +195,20 @@ Output</h2>
 <li><code>Path</code> Defines the path were the output is written to</li>
 <li><code>Compress_Type</code> Defines the compression type for the vtu file (<code>zlib</code> or <code>ascii</code>)</li>
 <li><code>Output_Interval</code> Defines the interval a output file is written</li>
-<li><code>Tag</code> Defines the field appended to the out file. The mesh is always added and all other simulation data needs to be listed.</li>
+<li><code>Tag</code> Defines the field appended to the out file. The mesh is always added and all other simulation data needs to be listed. Yhe following tags are available:<ul>
+<li><code>Force_Density</code> Peridynamic force density (vetor)</li>
+<li><code>Strain_Energy</code> Peridynamic strain energey (scalar)</li>
+<li><code>Fixity</code> Nodes with applied non-local boundary conditions (scalar)</li>
+<li><code>Node_Volume</code> Volumes of the discrete nodes (scalar)</li>
+<li><code>Neighbors</code> Initial number of neighbors without applying the initial cracks (scalar)</li>
+<li><code>Neighbors_Crack</code> Initial number of neighbors with applying the initial cracks (scalar)</li>
+<li><code>Broken_Bonds</code> Broken bonds per node (scalar)</li>
+<li><code>Strain_Tensor</code> Strain tensor for state-based PD models</li>
+<li><code>Stress_Tensor</code> Stress tensor for state-based PD models</li>
+<li><code>Displacement</code> Peridynamic displacement field (vector)</li>
+<li><code>Initial_Crack</code> write a file for each intital crack with a line for visualization</li>
+</ul>
+</li>
 <li><code>Perform_FE_Out</code> Store the mesh information in the output</li>
 </ul>
 <h2><a class="anchor" id="autotoc_md24"></a>
