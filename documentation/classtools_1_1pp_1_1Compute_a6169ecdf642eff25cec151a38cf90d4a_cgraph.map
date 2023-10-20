@@ -1,7 +1,11 @@
 <map id="tools::pp::Compute::initWriter" name="tools::pp::Compute::initWriter">
-<area shape="rect" id="node1" title="Create new writer object if it is not already done so." alt="" coords="5,104,147,145"/>
-<area shape="rect" id="node2" href="$classrw_1_1writer_1_1Writer.html#a3d2553a0bbe56d50513254c7f677fc6b" title="Writes the time step to the file." alt="" coords="195,5,327,47"/>
-<area shape="rect" id="node3" href="$classrw_1_1writer_1_1Writer.html#abbc31ddad6840bd96c383b1732be71bb" title="Writes the mesh data to file." alt="" coords="195,71,327,112"/>
-<area shape="rect" id="node4" href="$classrw_1_1writer_1_1Writer.html#ae695a091707e886e920cb4a987cc6f2a" title="Writes the nodes to the file." alt="" coords="195,136,327,177"/>
-<area shape="rect" id="node5" href="$classrw_1_1writer_1_1Writer.html#a99073ac82c4547629307fb269235d051" title="Open a .vtu file." alt="" coords="195,201,327,243"/>
+<area shape="rect" id="Node000001" title="Create new writer object if it is not already done so." alt="" coords="5,116,146,165"/>
+<area shape="rect" id="Node000002" href="$classrw_1_1writer_1_1Writer.html#a3d2553a0bbe56d50513254c7f677fc6b" title="Writes the time step to the file." alt="" coords="194,5,325,54"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="114,113,192,65,200,60,203,65,195,69,117,118"/>
+<area shape="rect" id="Node000003" href="$classrw_1_1writer_1_1Writer.html#abbc31ddad6840bd96c383b1732be71bb" title="Writes the mesh data to file." alt="" coords="194,79,325,127"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="145,124,178,117,179,122,146,129"/>
+<area shape="rect" id="Node000004" href="$classrw_1_1writer_1_1Writer.html#ae695a091707e886e920cb4a987cc6f2a" title="Writes the nodes to the file." alt="" coords="194,152,325,201"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="146,151,179,158,178,163,145,157"/>
+<area shape="rect" id="Node000005" href="$classrw_1_1writer_1_1Writer.html#a99073ac82c4547629307fb269235d051" title="Open a .vtu file." alt="" coords="194,225,325,274"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="118,163,195,210,203,215,200,219,192,215,115,168"/>
 </map>

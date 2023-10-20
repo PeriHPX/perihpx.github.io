@@ -1,10 +1,20 @@
 <map id="fe::TetElem::mapPointToRefElem" name="fe::TetElem::mapPointToRefElem">
-<area shape="rect" id="node1" title="Maps point p in a given element to the reference element." alt="" coords="5,137,229,163"/>
-<area shape="rect" id="node2" href="$namespaceutil_1_1compare.html#a01f7d35cb54e6e1274397c07dc843f63" title="Compares if a &gt; to b." alt="" coords="277,5,447,47"/>
-<area shape="rect" id="node3" href="$namespaceutil_1_1compare.html#afbc9630e288fb337b0a67e3cf6df02c9" title="Compares if a is &lt; to b." alt="" coords="277,71,447,112"/>
-<area shape="rect" id="node4" href="$namespaceutil.html#af081eb7d4934835d9c45b39b025ef5c9" title="Computes the dot product between matrix and vector." alt="" coords="515,123,585,150"/>
-<area shape="rect" id="node6" href="$namespaceutil.html#ad4f18aba6f461c113b723df12cdaf685" title="Computes the determinant of matrix." alt="" coords="329,187,395,214"/>
-<area shape="rect" id="node8" href="$namespaceutil.html#a3ea982d234156e852f2333a3c4e2931e" title="Computes the transpose of matrix." alt="" coords="495,275,605,302"/>
-<area shape="rect" id="node5" href="$namespaceutil.html#ae4a8ddcdd832032df5a6dfc33cd95db4" title="Checks matrix." alt="" coords="653,199,777,226"/>
-<area shape="rect" id="node7" href="$namespaceutil.html#aa3d6d22d633e7042dfbdf97782f2cf4e" title="Computes the determinant of matrix." alt="" coords="515,225,585,251"/>
+<area shape="rect" id="Node000001" title="Maps point p in a given element to the reference element." alt="" coords="5,150,229,179"/>
+<area shape="rect" id="Node000002" href="$namespaceutil_1_1compare.html#a01f7d35cb54e6e1274397c07dc843f63" title="Compares if a &gt; to b." alt="" coords="277,5,445,54"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="140,147,200,108,275,65,287,59,289,64,278,69,203,113,143,151"/>
+<area shape="rect" id="Node000003" href="$namespaceutil_1_1compare.html#afbc9630e288fb337b0a67e3cf6df02c9" title="Compares if a is &lt; to b." alt="" coords="277,79,445,127"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="179,146,261,125,262,131,180,151"/>
+<area shape="rect" id="Node000004" href="$namespaceutil.html#a9ccabde99187d658896793ba141c6d51" title="Computes the dot product between matrix and vector." alt="" coords="513,123,582,153"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="229,155,498,138,498,143,229,160"/>
+<area shape="rect" id="Node000006" href="$namespaceutil.html#a76bf29236b7065c3718ff181343c84f8" title="Computes the determinant of matrix." alt="" coords="328,202,394,231"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="191,177,313,204,312,209,189,182"/>
+<area shape="rect" id="Node000008" href="$namespaceutil.html#ab140ac1ad4a06a4a246466d49318cfbf" title="Computes the transpose of matrix." alt="" coords="493,280,602,310"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="145,177,204,209,278,240,382,268,478,284,477,290,381,273,276,246,202,214,142,182"/>
+<area shape="rect" id="Node000005" href="$namespaceutil.html#a6f8af769664ae2dbbf976e7d40703d0f" title="Checks matrix." alt="" coords="650,202,774,231"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="582,151,667,192,665,197,579,155"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="394,213,493,212,602,212,635,213,635,218,602,218,493,218,394,219"/>
+<area shape="rect" id="Node000007" href="$namespaceutil.html#a36edfc51cf94041fb395bde721d02bd1" title="Computes the determinant of matrix." alt="" coords="513,227,582,257"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="395,218,498,232,497,238,394,223"/>
+<area shape="poly" id="edge8_Node000007_Node000005" title=" " alt="" coords="582,234,634,226,635,231,583,239"/>
+<area shape="poly" id="edge10_Node000008_Node000005" title=" " alt="" coords="579,277,665,236,667,241,582,282"/>
 </map>

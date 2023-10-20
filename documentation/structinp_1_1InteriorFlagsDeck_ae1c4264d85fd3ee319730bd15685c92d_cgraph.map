@@ -1,5 +1,7 @@
 <map id="inp::InteriorFlagsDeck::print" name="inp::InteriorFlagsDeck::print">
-<area shape="rect" id="node1" title="Prints the information about the instance of the object." alt="" coords="5,5,165,47"/>
-<area shape="rect" id="node2" href="$structinp_1_1InteriorFlagsDeck.html#ad2fd91034cc93e83ff4a23e2eef61b42" title="Returns the string containing information about the instance of the object." alt="" coords="213,5,373,47"/>
-<area shape="rect" id="node3" href="$namespaceutil_1_1io.html#a38afb09a152cca4061850f4123bd3aeb" title="Generate a string contaning nt tabs." alt="" coords="421,13,539,39"/>
+<area shape="rect" id="Node000001" title="Prints the information about the instance of the object." alt="" coords="5,5,165,54"/>
+<area shape="rect" id="Node000002" href="$structinp_1_1InteriorFlagsDeck.html#ad2fd91034cc93e83ff4a23e2eef61b42" title="Returns the string containing information about the instance of the object." alt="" coords="213,5,372,54"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="165,27,197,27,197,32,165,32"/>
+<area shape="rect" id="Node000003" href="$namespaceutil_1_1io.html#a38afb09a152cca4061850f4123bd3aeb" title="Generate a string contaning nt tabs." alt="" coords="420,15,536,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="372,27,405,27,405,32,372,32"/>
 </map>

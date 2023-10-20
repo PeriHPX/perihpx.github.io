@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['installation_1732',['Installation',['../md_content_install_instructions.html',1,'']]]
+  ['equations_0',['Brief overview of the equations',['../md_content_2equations.html',1,'']]]
 ];

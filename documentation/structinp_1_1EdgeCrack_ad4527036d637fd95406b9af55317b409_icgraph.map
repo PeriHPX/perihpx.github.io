@@ -1,5 +1,8 @@
 <map id="inp::EdgeCrack::ptLeftside" name="inp::EdgeCrack::ptLeftside">
-<area shape="rect" id="node1" title="Checks if point lies on left(top) or right(bottom) of crack." alt="" coords="484,13,668,39"/>
-<area shape="rect" id="node2" href="$classgeometry_1_1Fracture.html#abc52c5f7d68e8d738ac4bfcdcc0bbaa1" title="Sets state of bond which intersect the pre&#45;crack line as fractured." alt="" coords="5,5,197,47"/>
-<area shape="rect" id="node3" href="$structinp_1_1EdgeCrack.html#a1ef67c3dfee9058e14cc3e8899eedfa4" title="Checks if point lies on left(top) or right(bottom) of crack." alt="" coords="245,38,436,65"/>
+<area shape="rect" id="Node000001" title="Checks if point lies on left(top) or right(bottom) of crack." alt="" coords="483,15,666,45"/>
+<area shape="rect" id="Node000002" href="$classgeometry_1_1Fracture.html#abc52c5f7d68e8d738ac4bfcdcc0bbaa1" title="Sets state of bond which intersect the pre&#45;crack line as fractured." alt="" coords="5,5,197,54"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="467,31,435,31,245,31,197,31,197,26,245,26,435,26,467,26"/>
+<area shape="rect" id="Node000003" href="$structinp_1_1EdgeCrack.html#a1ef67c3dfee9058e14cc3e8899eedfa4" title="Checks if point lies on left(top) or right(bottom) of crack." alt="" coords="245,40,435,70"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="468,44,436,47,435,42,468,39"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="229,46,197,43,198,37,229,41"/>
 </map>

@@ -1,11 +1,21 @@
 <map id="util::StateBasedHelperFunctions::StateBasedHelperFunctions" name="util::StateBasedHelperFunctions::StateBasedHelperFunctions">
-<area shape="rect" id="node1" title="Constructor." alt="" coords="5,207,227,248"/>
-<area shape="rect" id="node2" href="$classutil_1_1StateBasedHelperFunctions.html#a45f612b0719fa86c9b16a2f34c54027b" title="Computes the extension &#160;and dilatation &#160;for each node where $m_i$ is the weighted volume." alt="" coords="275,119,496,160"/>
-<area shape="rect" id="node4" href="$classdata_1_1DataManager.html#af27bebcc8dfdc726e13dc4b87fe18c74" title=" " alt="" coords="546,5,697,47"/>
-<area shape="rect" id="node5" href="$classfe_1_1Mesh.html#a15d5fd53a073ca3c01daf32ff4c7a783" title="Get the pointer to nodes data." alt="" coords="544,202,699,229"/>
-<area shape="rect" id="node7" href="$classdata_1_1DataManager.html#a4356cf7f1e46e904f0ec14d8e9d012e0" title=" " alt="" coords="310,236,461,277"/>
-<area shape="rect" id="node8" href="$classdata_1_1DataManager.html#acd934f09c1c7ec39354148884cf6bd1c" title=" " alt="" coords="310,301,461,343"/>
-<area shape="rect" id="node9" href="$classdata_1_1DataManager.html#a3b4742e509a838a48a6ac5e827138b03" title=" " alt="" coords="310,367,461,408"/>
-<area shape="rect" id="node3" href="$classdata_1_1DataManager.html#a8b13fd0311babbf3d11f2afc0f81088d" title=" " alt="" coords="546,71,697,112"/>
-<area shape="rect" id="node6" href="$classdata_1_1DataManager.html#ac9f820790aeccdc4df90df92c1a2ee58" title=" " alt="" coords="546,136,697,177"/>
+<area shape="rect" id="Node000001" title="Constructor." alt="" coords="5,223,226,271"/>
+<area shape="rect" id="Node000002" href="$classutil_1_1StateBasedHelperFunctions.html#a45f612b0719fa86c9b16a2f34c54027b" title="Computes the extension &#160;and dilatation &#160;for each node where $m_i$ is the weighted volume." alt="" coords="274,131,494,179"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="188,220,296,182,297,187,190,225"/>
+<area shape="rect" id="Node000004" href="$classdata_1_1DataManager.html#af27bebcc8dfdc726e13dc4b87fe18c74" title=" " alt="" coords="544,5,693,54"/>
+<area shape="poly" id="edge7_Node000001_Node000004" title=" " alt="" coords="139,220,196,168,233,140,272,117,337,89,404,67,528,39,529,45,405,72,339,94,275,121,236,145,200,172,142,224"/>
+<area shape="rect" id="Node000005" href="$classfe_1_1Mesh.html#a037caf2fe1ea8d9a17e89de2ecc0c649" title="Get the pointer to nodes data." alt="" coords="542,224,695,254"/>
+<area shape="poly" id="edge9_Node000001_Node000005" title=" " alt="" coords="226,240,274,239,526,236,526,242,274,244,226,246"/>
+<area shape="rect" id="Node000007" href="$classdata_1_1DataManager.html#a4356cf7f1e46e904f0ec14d8e9d012e0" title=" " alt="" coords="309,253,459,302"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="226,257,294,265,294,270,226,262"/>
+<area shape="rect" id="Node000008" href="$classdata_1_1DataManager.html#acd934f09c1c7ec39354148884cf6bd1c" title=" " alt="" coords="309,327,459,375"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="174,269,275,311,296,319,294,324,273,316,172,274"/>
+<area shape="rect" id="Node000009" href="$classdata_1_1DataManager.html#a8b5a45ca3d53c752fa690f505224cab4" title=" " alt="" coords="309,400,459,449"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="140,270,198,327,235,358,275,385,296,395,293,400,272,389,232,362,194,331,137,273"/>
+<area shape="rect" id="Node000003" href="$classdata_1_1DataManager.html#a8b13fd0311babbf3d11f2afc0f81088d" title=" " alt="" coords="544,79,693,127"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="494,128,529,120,530,125,495,133"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="427,128,541,65,552,59,554,64,543,69,429,132"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="454,177,543,210,560,216,558,221,541,215,452,182"/>
+<area shape="rect" id="Node000006" href="$classdata_1_1DataManager.html#ac9f820790aeccdc4df90df92c1a2ee58" title=" " alt="" coords="544,152,693,201"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="495,162,529,166,528,171,494,168"/>
 </map>

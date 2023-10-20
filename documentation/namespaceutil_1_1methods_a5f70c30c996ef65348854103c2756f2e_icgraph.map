@@ -1,4 +1,5 @@
 <map id="util::methods::min" name="util::methods::min">
-<area shape="rect" id="node1" title="Returns the minimum from list of data." alt="" coords="195,13,329,39"/>
-<area shape="rect" id="node2" href="$classtools_1_1pp_1_1Compute.html#a50a563e380fb535e8436176742dea9c0" title="Finds new crack tip location from the rectangle data." alt="" coords="5,5,147,47"/>
+<area shape="rect" id="Node000001" title="Returns the minimum from list of data." alt="" coords="194,15,328,45"/>
+<area shape="rect" id="Node000002" href="$classtools_1_1pp_1_1Compute.html#a6087452f6c0dcb186f7c2cb2e32f7b45" title="Finds new crack tip location from the rectangle data." alt="" coords="5,5,146,54"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="178,32,146,32,146,27,178,27"/>
 </map>

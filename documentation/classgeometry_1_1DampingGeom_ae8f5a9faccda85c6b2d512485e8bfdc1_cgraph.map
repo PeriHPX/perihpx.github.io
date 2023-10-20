@@ -1,9 +1,18 @@
 <map id="geometry::DampingGeom::DampingGeom" name="geometry::DampingGeom::DampingGeom">
-<area shape="rect" id="node1" title="Constructor." alt="" coords="5,160,192,201"/>
-<area shape="rect" id="node2" href="$classgeometry_1_1DampingGeom.html#aacf9e183af3929d530a5a75c34114d42" title="Compute damping coefficients at nodal coordinates." alt="" coords="240,120,448,161"/>
-<area shape="rect" id="node6" href="$classfe_1_1Mesh.html#aac3df3472139b865eda7406c1d1c3d77" title="Get the number of nodes." alt="" coords="507,218,683,245"/>
-<area shape="rect" id="node3" href="$namespaceutil_1_1compare.html#a01f7d35cb54e6e1274397c07dc843f63" title="Compares if a &gt; to b." alt="" coords="743,5,912,47"/>
-<area shape="rect" id="node4" href="$namespaceutil_1_1compare.html#afbc9630e288fb337b0a67e3cf6df02c9" title="Compares if a is &lt; to b." alt="" coords="743,84,912,125"/>
-<area shape="rect" id="node5" href="$classfe_1_1Mesh.html#adeb546cdd4b4a63cda5890787b13b034" title="Get coordinates of node i." alt="" coords="525,167,665,194"/>
-<area shape="rect" id="node7" href="$namespaceutil_1_1geometry.html#a9074704276f992ed2c536edac774b8d9" title="Checks if point is inside a cuboid (rectangle in 2&#45;d, line in 1&#45;d)" alt="" coords="496,51,695,92"/>
+<area shape="rect" id="Node000001" title="Constructor." alt="" coords="5,168,191,217"/>
+<area shape="rect" id="Node000002" href="$classgeometry_1_1DampingGeom.html#aacf9e183af3929d530a5a75c34114d42" title="Compute damping coefficients at nodal coordinates." alt="" coords="239,127,446,175"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="191,174,222,169,223,174,191,179"/>
+<area shape="rect" id="Node000006" href="$classfe_1_1Mesh.html#aac3df3472139b865eda7406c1d1c3d77" title="Get the number of nodes." alt="" coords="505,230,680,259"/>
+<area shape="poly" id="edge9_Node000001_Node000006" title=" " alt="" coords="192,199,490,231,489,236,191,205"/>
+<area shape="rect" id="Node000003" href="$namespaceutil_1_1compare.html#a01f7d35cb54e6e1274397c07dc843f63" title="Compares if a &gt; to b." alt="" coords="739,5,908,54"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="366,124,421,79,455,56,493,39,551,24,611,16,670,14,724,16,724,21,670,20,612,22,552,29,495,44,458,61,424,83,369,128"/>
+<area shape="rect" id="Node000004" href="$namespaceutil_1_1compare.html#afbc9630e288fb337b0a67e3cf6df02c9" title="Compares if a is &lt; to b." alt="" coords="739,91,908,139"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="446,141,723,120,724,125,447,146"/>
+<area shape="rect" id="Node000005" href="$classfe_1_1Mesh.html#adeb546cdd4b4a63cda5890787b13b034" title="Get coordinates of node i." alt="" coords="523,176,662,206"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="447,165,508,175,507,180,446,170"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="396,173,495,215,516,222,514,227,493,220,394,178"/>
+<area shape="rect" id="Node000007" href="$namespaceutil_1_1geometry.html#a9074704276f992ed2c536edac774b8d9" title="Checks if point is inside a cuboid (rectangle in 2&#45;d, line in 1&#45;d)" alt="" coords="494,53,691,102"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="427,124,492,104,493,110,429,129"/>
+<area shape="poly" id="edge7_Node000007_Node000003" title=" " alt="" coords="691,55,723,48,724,53,692,60"/>
+<area shape="poly" id="edge8_Node000007_Node000004" title=" " alt="" coords="692,91,724,96,723,102,691,96"/>
 </map>

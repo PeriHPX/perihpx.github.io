@@ -1,4 +1,5 @@
 <map id="material::pd::RNPBond::getS" name="material::pd::RNPBond::getS">
-<area shape="rect" id="node1" title="Returns the bond strain." alt="" coords="5,5,169,47"/>
-<area shape="rect" id="node2" href="$structutil_1_1Point3.html#aff23ee7d08f6bdb9429901c32e9cf362" title="Computes the dot product of this vector with another point." alt="" coords="217,13,336,39"/>
+<area shape="rect" id="Node000001" title="Returns the bond strain." alt="" coords="5,5,169,54"/>
+<area shape="rect" id="Node000002" href="$structutil_1_1Point3.html#aff23ee7d08f6bdb9429901c32e9cf362" title="Computes the dot product of this vector with another point." alt="" coords="217,15,334,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="169,27,201,27,201,32,169,32"/>
 </map>

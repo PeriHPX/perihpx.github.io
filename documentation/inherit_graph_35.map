@@ -1,5 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classloading_1_1Loading.html" title="A base class to apply displacement and force boundary condition." alt="" coords="5,31,129,57"/>
-<area shape="rect" id="node2" href="$classloading_1_1FLoading.html" title="A class to apply force boundary condition." alt="" coords="179,5,310,32"/>
-<area shape="rect" id="node3" href="$classloading_1_1ULoading.html" title="A class to apply displacement boundary condition." alt="" coords="177,56,312,83"/>
+<area shape="rect" id="Node000000" href="$classloading_1_1Loading.html" title="A base class to apply displacement and force boundary condition." alt="" coords="5,32,129,62"/>
+<area shape="rect" id="Node000001" href="$classloading_1_1FLoading.html" title="A class to apply force boundary condition." alt="" coords="178,5,309,35"/>
+<area shape="poly" id="edge7_Node000000_Node000001" title=" " alt="" coords="144,33,178,27,178,33,145,38"/>
+<area shape="rect" id="Node000002" href="$classloading_1_1ULoading.html" title="A class to apply displacement boundary condition." alt="" coords="177,59,310,88"/>
+<area shape="poly" id="edge8_Node000000_Node000002" title=" " alt="" coords="144,56,177,61,176,66,144,61"/>
 </map>

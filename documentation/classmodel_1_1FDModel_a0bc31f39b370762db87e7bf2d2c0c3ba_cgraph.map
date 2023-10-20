@@ -1,7 +1,12 @@
 <map id="model::FDModel::checkOutputCriteria" name="model::FDModel::checkOutputCriteria">
-<area shape="rect" id="node1" title="Checks if output frequency is to be modified." alt="" coords="5,64,217,105"/>
-<area shape="rect" id="node2" href="$namespaceutil_1_1compare.html#a01f7d35cb54e6e1274397c07dc843f63" title="Compares if a &gt; to b." alt="" coords="512,5,681,47"/>
-<area shape="rect" id="node3" href="$namespaceutil_1_1geometry.html#aeb284531388e5db9935af0a0df93289e" title="Checks if point is inside a rectangle." alt="" coords="265,64,464,105"/>
-<area shape="rect" id="node5" href="$namespaceutil_1_1methods.html#a4b1d9fb18d88850bb149173c80df5511" title="Returns the maximum from list of data." alt="" coords="295,130,434,157"/>
-<area shape="rect" id="node4" href="$namespaceutil_1_1compare.html#afbc9630e288fb337b0a67e3cf6df02c9" title="Compares if a is &lt; to b." alt="" coords="512,71,681,112"/>
+<area shape="rect" id="Node000001" title="Checks if output frequency is to be modified." alt="" coords="5,67,217,115"/>
+<area shape="rect" id="Node000002" href="$namespaceutil_1_1compare.html#a01f7d35cb54e6e1274397c07dc843f63" title="Compares if a &gt; to b." alt="" coords="510,5,678,54"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="207,63,264,52,383,38,494,31,494,36,384,44,265,58,208,69"/>
+<area shape="rect" id="Node000003" href="$namespaceutil_1_1geometry.html#aeb284531388e5db9935af0a0df93289e" title="Checks if point is inside a rectangle." alt="" coords="265,67,462,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="217,88,249,88,249,94,217,94"/>
+<area shape="rect" id="Node000005" href="$namespaceutil_1_1methods.html#a4b1d9fb18d88850bb149173c80df5511" title="Returns the maximum from list of data." alt="" coords="295,139,432,169"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="212,113,286,132,285,137,211,119"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="457,63,494,53,496,59,458,69"/>
+<area shape="rect" id="Node000004" href="$namespaceutil_1_1compare.html#afbc9630e288fb337b0a67e3cf6df02c9" title="Compares if a is &lt; to b." alt="" coords="510,79,678,127"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="462,93,495,95,494,100,462,99"/>
 </map>

@@ -1,0 +1,5 @@
+<map id="util::transpose" name="util::transpose">
+<area shape="rect" id="Node000001" title="Computes the transpose of matrix." alt="" coords="5,5,115,35"/>
+<area shape="rect" id="Node000002" href="$namespaceutil.html#a6f8af769664ae2dbbf976e7d40703d0f" title="Checks matrix." alt="" coords="163,5,286,35"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,18,147,18,147,23,115,23"/>
+</map>

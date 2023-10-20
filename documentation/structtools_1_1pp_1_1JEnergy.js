@@ -1,6 +1,5 @@
 var structtools_1_1pp_1_1JEnergy =
 [
-    [ "JEnergy", "structtools_1_1pp_1_1JEnergy.html#a7b2eade0dae3e545509faa1fd118e5b0", null ],
     [ "d_contourElasticInternalWorkRate", "structtools_1_1pp_1_1JEnergy.html#abdffda9b888b96cceaa4c237b7ca5dd4", null ],
     [ "d_contourKineticEnergyRate", "structtools_1_1pp_1_1JEnergy.html#a424fae85318eff86df7216588cab103b", null ],
     [ "d_contourPdStrainEnergy", "structtools_1_1pp_1_1JEnergy.html#a06e12f59f8d72e250dcdbf843473344d", null ],

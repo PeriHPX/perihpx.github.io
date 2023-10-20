@@ -1,5 +1,7 @@
 <map id="data::DataManager::getDilatationP" name="data::DataManager::getDilatationP">
-<area shape="rect" id="node1" title=" " alt="" coords="544,5,695,47"/>
-<area shape="rect" id="node2" href="$classutil_1_1StateBasedHelperFunctions.html#a45f612b0719fa86c9b16a2f34c54027b" title="Computes the extension &#160;and dilatation &#160;for each node where $m_i$ is the weighted volume." alt="" coords="275,5,496,47"/>
-<area shape="rect" id="node3" href="$classutil_1_1StateBasedHelperFunctions.html#a62a2fb2d49ebeb06a564838d0f6c3565" title="Constructor." alt="" coords="5,5,227,47"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="542,5,691,54"/>
+<area shape="rect" id="Node000002" href="$classutil_1_1StateBasedHelperFunctions.html#a45f612b0719fa86c9b16a2f34c54027b" title="Computes the extension &#160;and dilatation &#160;for each node where $m_i$ is the weighted volume." alt="" coords="274,5,494,54"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="527,32,494,32,494,27,527,27"/>
+<area shape="rect" id="Node000003" href="$classutil_1_1StateBasedHelperFunctions.html#a62a2fb2d49ebeb06a564838d0f6c3565" title="Constructor." alt="" coords="5,5,226,54"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="258,32,226,32,226,27,258,27"/>
 </map>

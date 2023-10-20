@@ -1,5 +1,7 @@
 <map id="fe::LineElem::mapPointToRefElem" name="fe::LineElem::mapPointToRefElem">
-<area shape="rect" id="node1" title="Maps point p in a given element to the reference element." alt="" coords="5,39,185,80"/>
-<area shape="rect" id="node2" href="$namespaceutil_1_1compare.html#a01f7d35cb54e6e1274397c07dc843f63" title="Compares if a &gt; to b." alt="" coords="233,5,403,47"/>
-<area shape="rect" id="node3" href="$namespaceutil_1_1compare.html#afbc9630e288fb337b0a67e3cf6df02c9" title="Compares if a is &lt; to b." alt="" coords="233,71,403,112"/>
+<area shape="rect" id="Node000001" title="Maps point p in a given element to the reference element." alt="" coords="5,43,185,91"/>
+<area shape="rect" id="Node000002" href="$namespaceutil_1_1compare.html#a01f7d35cb54e6e1274397c07dc843f63" title="Compares if a &gt; to b." alt="" coords="233,5,401,54"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="184,49,217,44,218,49,185,55"/>
+<area shape="rect" id="Node000003" href="$namespaceutil_1_1compare.html#afbc9630e288fb337b0a67e3cf6df02c9" title="Compares if a is &lt; to b." alt="" coords="233,79,401,127"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="185,79,218,84,217,89,184,84"/>
 </map>

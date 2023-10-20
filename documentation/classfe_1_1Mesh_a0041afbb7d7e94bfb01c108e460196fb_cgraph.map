@@ -1,13 +1,24 @@
 <map id="fe::Mesh::Mesh" name="fe::Mesh::Mesh">
-<area shape="rect" id="node1" title="Constructor." alt="" coords="5,81,124,108"/>
-<area shape="rect" id="node2" href="$classinp_1_1Policy.html#a06329dd627097de56dfeb761f1115558" title="Adds tag to specified level tag list." alt="" coords="193,5,349,32"/>
-<area shape="rect" id="node3" href="$classfe_1_1Mesh.html#a63a72abf6d18ebfa92750319c19c10dd" title="Compute the mesh size." alt="" coords="172,56,371,83"/>
-<area shape="rect" id="node5" href="$classfe_1_1Mesh.html#a8cb572f689a6b7fe9a5f189755795b34" title="Reads mesh data from the file and populates other data." alt="" coords="195,208,348,235"/>
-<area shape="rect" id="node6" href="$classinp_1_1Policy.html#a879f83a83b931d42e1c63ddf3d420bd5" title="Returns the pointer to static class. Creates instance in its first call." alt="" coords="449,107,615,133"/>
-<area shape="rect" id="node4" href="$namespaceutil_1_1compare.html#afbc9630e288fb337b0a67e3cf6df02c9" title="Compares if a is &lt; to b." alt="" coords="447,41,617,82"/>
-<area shape="rect" id="node7" href="$namespacerw_1_1reader.html#a4390356883ad2a4f14cb41c69cf3e5ca" title="Reads mesh data into node file and element file." alt="" coords="449,157,615,184"/>
-<area shape="rect" id="node8" href="$namespacerw_1_1reader.html#a839f30f8c9e2061c2739f05c51cad8c1" title="Reads mesh data into node file and element file." alt="" coords="447,208,617,235"/>
-<area shape="rect" id="node9" href="$namespacerw_1_1reader.html#a79098cecf3c77855498e8322ec1bf3a8" title="Reads cell data, i.e. element&#45;node connectivity and node&#45;element connectivity." alt="" coords="435,259,629,285"/>
-<area shape="rect" id="node10" href="$namespacerw_1_1reader.html#a809c0856da41218f67c61b7d21f68464" title="Reads nodal coordinates." alt="" coords="429,309,635,336"/>
-<area shape="rect" id="node11" href="$namespacerw_1_1reader.html#ae911e20d8494352c2de082b59dc88f11" title="Reads data of specified tag from the vtu file." alt="" coords="419,360,645,387"/>
+<area shape="rect" id="Node000001" title="Constructor." alt="" coords="5,85,124,115"/>
+<area shape="rect" id="Node000002" href="$classinp_1_1Policy.html#a06329dd627097de56dfeb761f1115558" title="Adds tag to specified level tag list." alt="" coords="193,5,348,35"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,82,171,44,190,38,192,43,173,49,94,87"/>
+<area shape="rect" id="Node000003" href="$classfe_1_1Mesh.html#a63a72abf6d18ebfa92750319c19c10dd" title="Compute the mesh size." alt="" coords="172,59,369,88"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="124,90,156,86,156,91,124,95"/>
+<area shape="rect" id="Node000005" href="$classfe_1_1Mesh.html#a8cb572f689a6b7fe9a5f189755795b34" title="Reads mesh data from the file and populates other data." alt="" coords="194,217,347,247"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="91,113,234,207,232,211,88,118"/>
+<area shape="rect" id="Node000006" href="$classinp_1_1Policy.html#a879f83a83b931d42e1c63ddf3d420bd5" title="Returns the pointer to static class. Creates instance in its first call." alt="" coords="448,111,613,140"/>
+<area shape="poly" id="edge11_Node000001_Node000006" title=" " alt="" coords="124,101,432,118,432,123,124,106"/>
+<area shape="rect" id="Node000004" href="$namespaceutil_1_1compare.html#afbc9630e288fb337b0a67e3cf6df02c9" title="Compares if a is &lt; to b." alt="" coords="446,39,614,87"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="370,67,430,64,431,70,370,72"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="294,215,348,182,416,150,437,143,439,148,418,155,351,187,296,219"/>
+<area shape="rect" id="Node000007" href="$namespacerw_1_1reader.html#a4390356883ad2a4f14cb41c69cf3e5ca" title="Reads mesh data into node file and element file." alt="" coords="448,164,613,194"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="346,214,439,195,440,200,347,219"/>
+<area shape="rect" id="Node000008" href="$namespacerw_1_1reader.html#a05a5e623eb4792a837f996aeeb2701f8" title="Reads mesh data into node file and element file." alt="" coords="445,217,615,247"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="347,230,429,230,429,235,347,235"/>
+<area shape="rect" id="Node000009" href="$namespacerw_1_1reader.html#a4a9d06e652af7d12f937f5ade0542a8d" title="Reads cell data, i.e. element&#45;node connectivity and node&#45;element connectivity." alt="" coords="434,271,627,300"/>
+<area shape="poly" id="edge8_Node000005_Node000009" title=" " alt="" coords="347,245,440,264,439,270,346,250"/>
+<area shape="rect" id="Node000010" href="$namespacerw_1_1reader.html#a809c0856da41218f67c61b7d21f68464" title="Reads nodal coordinates." alt="" coords="428,324,633,354"/>
+<area shape="poly" id="edge9_Node000005_Node000010" title=" " alt="" coords="296,245,351,278,418,310,439,317,437,322,416,315,348,282,294,250"/>
+<area shape="rect" id="Node000011" href="$namespacerw_1_1reader.html#ae911e20d8494352c2de082b59dc88f11" title="Reads data of specified tag from the vtu file." alt="" coords="417,377,643,407"/>
+<area shape="poly" id="edge10_Node000005_Node000011" title=" " alt="" coords="286,246,339,304,377,336,418,363,431,369,429,374,416,368,373,340,336,308,282,249"/>
 </map>

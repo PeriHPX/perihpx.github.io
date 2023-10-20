@@ -1,4 +1,5 @@
 <map id="inp::DampingGeomData" name="inp::DampingGeomData">
-<area shape="rect" id="node1" title=" " alt="" coords="5,497,177,692"/>
-<area shape="rect" id="node2" href="$structutil_1_1Point3.html" title="A structure to represent 3d vectors." alt="" coords="35,5,147,420"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,721,168,990"/>
+<area shape="rect" id="Node000002" href="$structutil_1_1Point3.html" title="A structure to represent 3d vectors." alt="" coords="30,5,143,635"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="89,635,89,704,84,704,84,635"/>
 </map>

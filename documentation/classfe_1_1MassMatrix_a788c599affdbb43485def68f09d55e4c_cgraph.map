@@ -1,4 +1,5 @@
 <map id="fe::MassMatrix::MassMatrix" name="fe::MassMatrix::MassMatrix">
-<area shape="rect" id="node1" title="Constructor." alt="" coords="5,5,199,32"/>
-<area shape="rect" id="node2" href="$classinp_1_1Policy.html#a879f83a83b931d42e1c63ddf3d420bd5" title="Returns the pointer to static class. Creates instance in its first call." alt="" coords="247,5,413,32"/>
+<area shape="rect" id="Node000001" title="Constructor." alt="" coords="5,5,198,35"/>
+<area shape="rect" id="Node000002" href="$classinp_1_1Policy.html#a879f83a83b931d42e1c63ddf3d420bd5" title="Returns the pointer to static class. Creates instance in its first call." alt="" coords="246,5,411,35"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="198,18,230,18,230,23,198,23"/>
 </map>

@@ -1,0 +1,12 @@
+<map id="util::dot" name="util::dot">
+<area shape="rect" id="Node000001" title="Computes the dot product between matrix and vector." alt="" coords="277,109,346,139"/>
+<area shape="rect" id="Node000002" href="$namespaceutil_1_1geometry.html#a4d1ce7df6b902a1b374c89f4d1a2f69d" title="Computes angle between two vectors." alt="" coords="41,29,193,59"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="277,102,228,73,193,61,195,56,230,68,280,98"/>
+<area shape="rect" id="Node000003" href="$classfe_1_1TetElem.html#a9b945d960dbf453968a1785741b8d66c" title="Returns the values of derivative of shape function at point p." alt="" coords="23,83,211,112"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="261,120,211,113,212,108,262,115"/>
+<area shape="rect" id="Node000004" href="$classfe_1_1TetElem.html#acf2316070778994bb2ad5240d1dd7609" title="Get vector of quadrature data." alt="" coords="23,136,211,166"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="262,134,212,141,211,135,261,128"/>
+<area shape="rect" id="Node000005" href="$classfe_1_1TetElem.html#a34d87462ff99f90f444ca83ee600d1aa" title="Maps point p in a given element to the reference element." alt="" coords="5,189,229,219"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="280,151,230,180,197,191,196,186,228,175,277,146"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="150,16,138,10,117,8,97,10,86,15,83,20,88,28,83,30,78,20,82,11,96,5,117,3,140,5,152,12"/>
+</map>

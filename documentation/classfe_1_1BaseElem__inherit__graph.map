@@ -1,7 +1,11 @@
 <map id="fe::BaseElem" name="fe::BaseElem">
-<area shape="rect" id="node1" title="A base class which provides methods to map points to/from reference element and to compute quadrature..." alt="" coords="262,5,425,347"/>
-<area shape="rect" id="node2" href="$classfe_1_1LineElem.html" title="A class for mapping and quadrature related operations for linear 2&#45;node line element." alt="" coords="5,395,167,648"/>
-<area shape="rect" id="node3" href="$classfe_1_1QuadElem.html" title="A class for mapping and quadrature related operations for bi&#45;linear quadrangle element." alt="" coords="191,417,325,626"/>
-<area shape="rect" id="node4" href="$classfe_1_1TetElem.html" title="A class for mapping and quadrature related operations for linear tetrahedron element." alt="" coords="349,395,511,648"/>
-<area shape="rect" id="node5" href="$classfe_1_1TriElem.html" title="A class for mapping and quadrature related operations for linear triangle element." alt="" coords="535,395,696,648"/>
+<area shape="rect" id="Node000001" title="A base class which provides methods to map points to/from reference element and to compute quadrature..." alt="" coords="251,5,407,515"/>
+<area shape="rect" id="Node000002" href="$classfe_1_1LineElem.html" title="A class for mapping and quadrature related operations for linear 2&#45;node line element." alt="" coords="5,563,161,928"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="246,425,175,564,163,587,159,584,170,561,242,422"/>
+<area shape="rect" id="Node000003" href="$classfe_1_1QuadElem.html" title="A class for mapping and quadrature related operations for bi&#45;linear quadrangle element." alt="" coords="185,599,309,892"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="286,530,274,599,269,598,281,529"/>
+<area shape="rect" id="Node000004" href="$classfe_1_1TetElem.html" title="A class for mapping and quadrature related operations for linear tetrahedron element." alt="" coords="333,563,489,928"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="377,529,383,563,378,563,372,530"/>
+<area shape="rect" id="Node000005" href="$classfe_1_1TriElem.html" title="A class for mapping and quadrature related operations for linear triangle element." alt="" coords="513,563,669,928"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="416,404,504,561,516,583,511,586,500,564,412,407"/>
 </map>

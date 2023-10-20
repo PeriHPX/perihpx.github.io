@@ -1,7 +1,13 @@
 <map id="tools::mesh::fe2D" name="tools::mesh::fe2D">
-<area shape="rect" id="node1" title="Generates uniform mesh in 2&#45;d and writes the data to files specified in input filename." alt="" coords="5,56,139,83"/>
-<area shape="rect" id="node2" href="$namespacetools_1_1mesh.html#a60bcb6e9910bf43b054d530860ddfc76" title="Generates uniform square mesh in 2&#45;d and writes the data to files specified in input filename." alt="" coords="187,5,381,32"/>
-<area shape="rect" id="node4" href="$namespacetools_1_1mesh.html#adcc239e43b9387e41d1452a7329b01ef" title="Generates uniform triangular mesh in 2&#45;d and writes the data to files specified in input filename." alt="" coords="200,56,368,83"/>
-<area shape="rect" id="node5" href="$namespacetools_1_1mesh.html#a0b15298fff784eb36b909cafd66723a3" title="Generates uniform symmetric triangular mesh in 2&#45;d and writes the data to files specified in input fi..." alt="" coords="187,107,381,133"/>
-<area shape="rect" id="node3" href="$namespaceutil_1_1compare.html#afbc9630e288fb337b0a67e3cf6df02c9" title="Compares if a is &lt; to b." alt="" coords="429,49,599,90"/>
+<area shape="rect" id="Node000001" title="Generates uniform mesh in 2&#45;d and writes the data to files specified in input filename." alt="" coords="5,59,138,88"/>
+<area shape="rect" id="Node000002" href="$namespacetools_1_1mesh.html#a60bcb6e9910bf43b054d530860ddfc76" title="Generates uniform square mesh in 2&#45;d and writes the data to files specified in input filename." alt="" coords="186,5,380,35"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="133,55,206,37,207,42,134,61"/>
+<area shape="rect" id="Node000004" href="$namespacetools_1_1mesh.html#adcc239e43b9387e41d1452a7329b01ef" title="Generates uniform triangular mesh in 2&#45;d and writes the data to files specified in input filename." alt="" coords="199,59,367,88"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="138,71,183,71,183,76,138,76"/>
+<area shape="rect" id="Node000005" href="$namespacetools_1_1mesh.html#a0b15298fff784eb36b909cafd66723a3" title="Generates uniform symmetric triangular mesh in 2&#45;d and writes the data to files specified in input fi..." alt="" coords="186,112,380,142"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="134,86,207,105,206,110,133,92"/>
+<area shape="rect" id="Node000003" href="$namespaceutil_1_1compare.html#afbc9630e288fb337b0a67e3cf6df02c9" title="Compares if a is &lt; to b." alt="" coords="428,49,596,98"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="350,33,414,48,412,53,349,38"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="367,71,413,71,413,76,367,76"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="349,109,412,94,414,99,350,114"/>
 </map>

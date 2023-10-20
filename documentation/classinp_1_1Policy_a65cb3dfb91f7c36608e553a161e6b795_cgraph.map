@@ -1,4 +1,5 @@
 <map id="inp::Policy::Policy" name="inp::Policy::Policy">
-<area shape="rect" id="node1" title="Private constructor." alt="" coords="5,5,132,32"/>
-<area shape="rect" id="node2" href="$classinp_1_1Policy.html#af09095f8c4eab2178d5ec7186fbe0a76" title="Initializes the data." alt="" coords="180,5,291,32"/>
+<area shape="rect" id="Node000001" title="Private constructor." alt="" coords="5,5,132,35"/>
+<area shape="rect" id="Node000002" href="$classinp_1_1Policy.html#af09095f8c4eab2178d5ec7186fbe0a76" title="Initializes the data." alt="" coords="180,5,290,35"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="132,18,164,18,164,23,132,23"/>
 </map>

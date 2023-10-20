@@ -1,4 +1,5 @@
 <map id="inp::RestartDeck::printStr" name="inp::RestartDeck::printStr">
-<area shape="rect" id="node1" title="Returns the string containing information about the instance of the object." alt="" coords="5,5,187,32"/>
-<area shape="rect" id="node2" href="$namespaceutil_1_1io.html#a38afb09a152cca4061850f4123bd3aeb" title="Generate a string contaning nt tabs." alt="" coords="235,5,352,32"/>
+<area shape="rect" id="Node000001" title="Returns the string containing information about the instance of the object." alt="" coords="5,5,186,35"/>
+<area shape="rect" id="Node000002" href="$namespaceutil_1_1io.html#a38afb09a152cca4061850f4123bd3aeb" title="Generate a string contaning nt tabs." alt="" coords="234,5,350,35"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="186,18,218,18,218,23,186,23"/>
 </map>

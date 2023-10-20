@@ -1,7 +1,11 @@
 <map id="test::testTetElem" name="test::testTetElem">
-<area shape="rect" id="node1" title="Perform test on quadrature points on tetrahedral elements." alt="" coords="5,42,132,69"/>
-<area shape="rect" id="node2" href="$namespacetest.html#af43e065c49520ee624134a11bdfe3643" title="Computes integration of polynomial exactly over reference tetrahedral." alt="" coords="180,5,357,47"/>
-<area shape="rect" id="node4" href="$namespaceutil_1_1io.html#a1c93ac0c8a7bf4145a5358e205fa2d33" title="Concatenates the elements of the vector separated with a comma." alt="" coords="211,71,327,98"/>
-<area shape="rect" id="node3" href="$namespacetest.html#a44d761477bf0e6293198849c53cb8abc" title="Computes &#160;&quot;n choose r&quot;." alt="" coords="405,13,544,39"/>
-<area shape="rect" id="node5" href="$namespaceutil_1_1io.html#a38afb09a152cca4061850f4123bd3aeb" title="Generate a string contaning nt tabs." alt="" coords="416,71,533,98"/>
+<area shape="rect" id="Node000001" title="Perform test on quadrature points on tetrahedral elements." alt="" coords="5,47,132,77"/>
+<area shape="rect" id="Node000002" href="$namespacetest.html#af43e065c49520ee624134a11bdfe3643" title="Computes integration of polynomial exactly over reference tetrahedral." alt="" coords="180,5,356,54"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="132,49,164,44,165,49,132,54"/>
+<area shape="rect" id="Node000004" href="$namespaceutil_1_1io.html#a1c93ac0c8a7bf4145a5358e205fa2d33" title="Concatenates the elements of the vector separated with a comma." alt="" coords="210,78,326,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="132,69,196,79,195,84,132,74"/>
+<area shape="rect" id="Node000003" href="$namespacetest.html#a44d761477bf0e6293198849c53cb8abc" title="Computes &#160;&quot;n choose r&quot;." alt="" coords="404,15,542,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="356,27,388,27,388,32,356,32"/>
+<area shape="rect" id="Node000005" href="$namespaceutil_1_1io.html#a38afb09a152cca4061850f4123bd3aeb" title="Generate a string contaning nt tabs." alt="" coords="415,78,531,107"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="326,90,400,90,400,95,326,95"/>
 </map>

@@ -1,6 +1,10 @@
 <map id="util::geometry::angle" name="util::geometry::angle">
-<area shape="rect" id="node1" title="Computes angle between two vectors." alt="" coords="5,31,159,57"/>
-<area shape="rect" id="node2" href="$structutil_1_1Point3.html#aff23ee7d08f6bdb9429901c32e9cf362" title="Computes the dot product of this vector with another point." alt="" coords="207,5,325,32"/>
-<area shape="rect" id="node3" href="$namespaceutil.html#af081eb7d4934835d9c45b39b025ef5c9" title="Computes the dot product between matrix and vector." alt="" coords="231,56,301,83"/>
-<area shape="rect" id="node4" href="$namespaceutil.html#ae4a8ddcdd832032df5a6dfc33cd95db4" title="Checks matrix." alt="" coords="373,56,497,83"/>
+<area shape="rect" id="Node000001" title="Computes angle between two vectors." alt="" coords="5,32,158,62"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="49,33,45,23,49,14,61,7,82,5,103,8,115,14,112,19,101,13,81,11,63,13,53,17,50,23,54,30"/>
+<area shape="rect" id="Node000002" href="$structutil_1_1Point3.html#aff23ee7d08f6bdb9429901c32e9cf362" title="Computes the dot product of this vector with another point." alt="" coords="206,5,323,35"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="158,33,190,28,191,34,159,38"/>
+<area shape="rect" id="Node000003" href="$namespaceutil.html#a9ccabde99187d658896793ba141c6d51" title="Computes the dot product between matrix and vector." alt="" coords="230,59,299,88"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="159,55,215,64,214,69,158,61"/>
+<area shape="rect" id="Node000004" href="$namespaceutil.html#a6f8af769664ae2dbbf976e7d40703d0f" title="Checks matrix." alt="" coords="371,59,494,88"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="300,71,356,71,356,76,300,76"/>
 </map>

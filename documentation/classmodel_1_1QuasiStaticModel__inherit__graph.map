@@ -1,4 +1,5 @@
 <map id="model::QuasiStaticModel&lt; T &gt;" name="model::QuasiStaticModel&lt; T &gt;">
-<area shape="rect" id="node1" title="A class for finite difference approximation of Peridynamics" alt="" coords="5,439,209,897"/>
-<area shape="rect" id="node2" href="$classmodel_1_1Model.html" title="A base class for different model implementation." alt="" coords="53,5,161,391"/>
+<area shape="rect" id="Node000001" title="A class for finite difference approximation of Peridynamics" alt="" coords="5,635,203,1331"/>
+<area shape="rect" id="Node000002" href="$classmodel_1_1Model.html" title="A base class for different model implementation." alt="" coords="55,5,153,587"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,602,107,635,101,635,101,602"/>
 </map>

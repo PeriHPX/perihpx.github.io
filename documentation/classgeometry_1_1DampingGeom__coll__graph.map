@@ -1,4 +1,5 @@
 <map id="geometry::DampingGeom" name="geometry::DampingGeom">
-<area shape="rect" id="node1" title="An abstraction class to process geometry for damping force calculation." alt="" coords="5,233,220,457"/>
-<area shape="rect" id="node2" href="$structinp_1_1AbsorbingCondDeck.html" title="Structure to read and store mesh related input data." alt="" coords="23,5,202,171"/>
+<area shape="rect" id="Node000001" title="An abstraction class to process geometry for damping force calculation." alt="" coords="5,294,215,611"/>
+<area shape="rect" id="Node000002" href="$structinp_1_1AbsorbingCondDeck.html" title="Structure to read and store mesh related input data." alt="" coords="25,5,195,227"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,227,113,277,107,277,107,227"/>
 </map>

@@ -1,5 +1,7 @@
 <map id="util::function::hatFunction" name="util::function::hatFunction">
-<area shape="rect" id="node1" title="Computes hat function at given point." alt="" coords="5,46,187,73"/>
-<area shape="rect" id="node2" href="$namespaceutil_1_1compare.html#a01f7d35cb54e6e1274397c07dc843f63" title="Compares if a &gt; to b." alt="" coords="235,5,404,47"/>
-<area shape="rect" id="node3" href="$namespaceutil_1_1compare.html#afbc9630e288fb337b0a67e3cf6df02c9" title="Compares if a is &lt; to b." alt="" coords="235,71,404,112"/>
+<area shape="rect" id="Node000001" title="Computes hat function at given point." alt="" coords="5,52,186,82"/>
+<area shape="rect" id="Node000002" href="$namespaceutil_1_1compare.html#a01f7d35cb54e6e1274397c07dc843f63" title="Compares if a &gt; to b." alt="" coords="234,5,402,54"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="186,49,218,44,219,49,187,54"/>
+<area shape="rect" id="Node000003" href="$namespaceutil_1_1compare.html#afbc9630e288fb337b0a67e3cf6df02c9" title="Compares if a is &lt; to b." alt="" coords="234,79,402,127"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="187,79,219,84,218,90,186,84"/>
 </map>

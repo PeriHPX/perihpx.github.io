@@ -1,5 +1,7 @@
 <map id="test::testTriElem" name="test::testTriElem">
-<area shape="rect" id="node1" title="Perform test on quadrature points on triangle elements." alt="" coords="5,13,129,39"/>
-<area shape="rect" id="node2" href="$namespacetest.html#a437c18b50b59ae2f9cd10e1cb51fba64" title="Computes integration of polynomial exactly over reference triangle." alt="" coords="177,5,355,47"/>
-<area shape="rect" id="node3" href="$namespacetest.html#a44d761477bf0e6293198849c53cb8abc" title="Computes &#160;&quot;n choose r&quot;." alt="" coords="403,13,541,39"/>
+<area shape="rect" id="Node000001" title="Perform test on quadrature points on triangle elements." alt="" coords="5,15,129,45"/>
+<area shape="rect" id="Node000002" href="$namespacetest.html#a437c18b50b59ae2f9cd10e1cb51fba64" title="Computes integration of polynomial exactly over reference triangle." alt="" coords="177,5,353,54"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="129,27,161,27,161,32,129,32"/>
+<area shape="rect" id="Node000003" href="$namespacetest.html#a44d761477bf0e6293198849c53cb8abc" title="Computes &#160;&quot;n choose r&quot;." alt="" coords="401,15,539,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="353,27,385,27,385,32,353,32"/>
 </map>

@@ -20,6 +20,5 @@ var classmaterial_1_1pd_1_1ElasticState =
     [ "d_deck", "classmaterial_1_1pd_1_1ElasticState.html#a295abf056ae34bcd743bf21284980fc1", null ],
     [ "d_factor2D", "classmaterial_1_1pd_1_1ElasticState.html#ae75045fec35914d92eb06d5ef767d74b", null ],
     [ "dim", "classmaterial_1_1pd_1_1ElasticState.html#a97f4b321285b7fa4e4844620b43cac10", null ],
-    [ "horizon", "classmaterial_1_1pd_1_1ElasticState.html#ac68d728195f63940c23cad84a7bd87e2", null ],
     [ "strainEnergy", "classmaterial_1_1pd_1_1ElasticState.html#ac5e323c482197ced7b9e46a9604b3c27", null ]
 ];

@@ -1,6 +1,11 @@
 <map id="geometry::ComputeInterior::getInteriorFlag" name="geometry::ComputeInterior::getInteriorFlag">
-<area shape="rect" id="node1" title="Returns true if node is in interior, false otherwise." alt="" coords="5,51,204,92"/>
-<area shape="rect" id="node2" href="$namespaceutil_1_1compare.html#a01f7d35cb54e6e1274397c07dc843f63" title="Compares if a &gt; to b." alt="" coords="499,5,668,47"/>
-<area shape="rect" id="node3" href="$namespaceutil_1_1compare.html#afbc9630e288fb337b0a67e3cf6df02c9" title="Compares if a is &lt; to b." alt="" coords="499,84,668,125"/>
-<area shape="rect" id="node4" href="$namespaceutil_1_1geometry.html#aeb284531388e5db9935af0a0df93289e" title="Checks if point is inside a rectangle." alt="" coords="252,51,451,92"/>
+<area shape="rect" id="Node000001" title="Returns true if node is in interior, false otherwise." alt="" coords="5,53,203,102"/>
+<area shape="rect" id="Node000002" href="$namespaceutil_1_1compare.html#a01f7d35cb54e6e1274397c07dc843f63" title="Compares if a &gt; to b." alt="" coords="496,5,664,54"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="193,50,250,39,369,28,480,25,480,31,370,34,251,44,194,55"/>
+<area shape="rect" id="Node000003" href="$namespaceutil_1_1compare.html#afbc9630e288fb337b0a67e3cf6df02c9" title="Compares if a is &lt; to b." alt="" coords="496,91,664,139"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="192,100,251,111,370,119,480,118,480,123,370,124,250,116,191,105"/>
+<area shape="rect" id="Node000004" href="$namespaceutil_1_1geometry.html#aeb284531388e5db9935af0a0df93289e" title="Checks if point is inside a rectangle." alt="" coords="251,53,448,102"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="203,75,235,75,235,80,203,80"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="448,55,480,48,481,53,449,60"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="449,91,481,96,480,102,448,96"/>
 </map>

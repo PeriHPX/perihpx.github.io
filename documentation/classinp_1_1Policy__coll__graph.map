@@ -1,3 +1,4 @@
 <map id="inp::Policy" name="inp::Policy">
-<area shape="rect" id="node1" title="A class to enforce certain policies to reduce memory loads." alt="" coords="5,5,191,376"/>
+<area shape="rect" id="Node000001" title="A class to enforce certain policies to reduce memory loads." alt="" coords="5,5,181,563"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="183,186,193,200,201,221,206,249,208,284,204,334,194,368,188,366,199,333,203,284,201,250,196,223,189,202,179,189"/>
 </map>

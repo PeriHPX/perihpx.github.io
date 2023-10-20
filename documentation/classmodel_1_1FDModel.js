@@ -1,7 +1,6 @@
 var classmodel_1_1FDModel =
 [
     [ "FDModel", "classmodel_1_1FDModel.html#abe4e7523e47005cbf4c04fa24d576c66", null ],
-    [ "~FDModel", "classmodel_1_1FDModel.html#afa0f840f934634d9859b1e88b71f34b6", null ],
     [ "checkOutputCriteria", "classmodel_1_1FDModel.html#a0bc31f39b370762db87e7bf2d2c0c3ba", null ],
     [ "computeDampingForces", "classmodel_1_1FDModel.html#a22af0ea4c14e0b3e167ccee86a59a857", null ],
     [ "computeForce", "classmodel_1_1FDModel.html#a740e973d062a97913e80ed6d038962a0", null ],

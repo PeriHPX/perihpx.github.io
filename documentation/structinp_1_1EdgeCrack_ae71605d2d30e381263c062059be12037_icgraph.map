@@ -1,4 +1,5 @@
 <map id="inp::EdgeCrack::ptOutside" name="inp::EdgeCrack::ptOutside">
-<area shape="rect" id="node1" title="Checks if point lies outside the crack." alt="" coords="245,13,428,39"/>
-<area shape="rect" id="node2" href="$classgeometry_1_1Fracture.html#abc52c5f7d68e8d738ac4bfcdcc0bbaa1" title="Sets state of bond which intersect the pre&#45;crack line as fractured." alt="" coords="5,5,197,47"/>
+<area shape="rect" id="Node000001" title="Checks if point lies outside the crack." alt="" coords="245,15,426,45"/>
+<area shape="rect" id="Node000002" href="$classgeometry_1_1Fracture.html#abc52c5f7d68e8d738ac4bfcdcc0bbaa1" title="Sets state of bond which intersect the pre&#45;crack line as fractured." alt="" coords="5,5,197,54"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="229,32,197,32,197,27,229,27"/>
 </map>

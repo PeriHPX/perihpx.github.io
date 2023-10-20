@@ -1,6 +1,5 @@
 var structtools_1_1pp_1_1InstructionData =
 [
-    [ "InstructionData", "structtools_1_1pp_1_1InstructionData.html#a76507dba2585c61b1c3f2df85f7ba89c", null ],
     [ "d_calculateInRefConfig", "structtools_1_1pp_1_1InstructionData.html#ae2a356a6c5063722efcfdeb337b897df", null ],
     [ "d_compressType", "structtools_1_1pp_1_1InstructionData.html#ad636c390e9cbf50059269677cbcbb7b3", null ],
     [ "d_compStrain_p", "structtools_1_1pp_1_1InstructionData.html#a2f306ca1bd9e60d8e0b5e47a0b146b0c", null ],

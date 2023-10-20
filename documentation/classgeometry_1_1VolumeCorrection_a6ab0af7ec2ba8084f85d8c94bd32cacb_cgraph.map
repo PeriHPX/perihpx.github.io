@@ -1,10 +1,17 @@
 <map id="geometry::VolumeCorrection::VolumeCorrection" name="geometry::VolumeCorrection::VolumeCorrection">
-<area shape="rect" id="node1" title="Constructor." alt="" coords="5,188,209,229"/>
-<area shape="rect" id="node2" href="$classgeometry_1_1VolumeCorrection.html#a3e5d3966e517d60e48f01a2ebe2f7349" title="Computes the volume correction for each node inside the neighborhood. Since nodes close the boundary ..." alt="" coords="257,5,461,47"/>
-<area shape="rect" id="node3" href="$classdata_1_1DataManager.html#af27bebcc8dfdc726e13dc4b87fe18c74" title=" " alt="" coords="284,71,435,112"/>
-<area shape="rect" id="node4" href="$classfe_1_1Mesh.html#a068ec3921531230930e56ab97bf840b7" title="Get the mesh size." alt="" coords="277,137,441,163"/>
-<area shape="rect" id="node5" href="$classdata_1_1DataManager.html#acd934f09c1c7ec39354148884cf6bd1c" title=" " alt="" coords="284,188,435,229"/>
-<area shape="rect" id="node6" href="$classdata_1_1DataManager.html#ab7d6b17f07d69e15fee1940854b2bd30" title=" " alt="" coords="284,253,435,295"/>
-<area shape="rect" id="node7" href="$classfe_1_1Mesh.html#a15d5fd53a073ca3c01daf32ff4c7a783" title="Get the pointer to nodes data." alt="" coords="282,319,437,346"/>
-<area shape="rect" id="node8" href="$classgeometry_1_1VolumeCorrection.html#a49410213366d5d5d04d7e1dd52ae60af" title="Computes the weighted volume &#160;with &#160;as the influence function for each discrete node." alt="" coords="257,371,461,412"/>
+<area shape="rect" id="Node000001" title="Constructor." alt="" coords="5,204,209,253"/>
+<area shape="rect" id="Node000002" href="$classgeometry_1_1VolumeCorrection.html#a3e5d3966e517d60e48f01a2ebe2f7349" title="Computes the volume correction for each node inside the neighborhood. Since nodes close the boundary ..." alt="" coords="257,5,460,54"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="123,202,177,135,214,97,255,65,264,59,267,64,258,69,218,101,181,138,127,205"/>
+<area shape="rect" id="Node000003" href="$classdata_1_1DataManager.html#af27bebcc8dfdc726e13dc4b87fe18c74" title=" " alt="" coords="284,79,433,127"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="144,201,196,169,255,137,268,131,270,136,258,141,198,173,146,206"/>
+<area shape="rect" id="Node000004" href="$classfe_1_1Mesh.html#a068ec3921531230930e56ab97bf840b7" title="Get the mesh size." alt="" coords="277,151,440,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="207,201,280,182,281,187,208,206"/>
+<area shape="rect" id="Node000005" href="$classdata_1_1DataManager.html#acd934f09c1c7ec39354148884cf6bd1c" title=" " alt="" coords="284,204,433,253"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="209,226,268,226,268,231,209,231"/>
+<area shape="rect" id="Node000006" href="$classdata_1_1DataManager.html#ab7d6b17f07d69e15fee1940854b2bd30" title=" " alt="" coords="284,277,433,326"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="194,251,269,273,268,278,192,256"/>
+<area shape="rect" id="Node000007" href="$classfe_1_1Mesh.html#a037caf2fe1ea8d9a17e89de2ecc0c649" title="Get the pointer to nodes data." alt="" coords="282,350,435,379"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="137,251,191,294,258,335,272,341,270,346,255,340,188,299,134,255"/>
+<area shape="rect" id="Node000008" href="$classgeometry_1_1VolumeCorrection.html#a49410213366d5d5d04d7e1dd52ae60af" title="Computes the weighted volume &#160;with &#160;as the influence function for each discrete node." alt="" coords="257,403,460,451"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="127,252,181,319,217,356,258,389,265,393,262,397,255,393,214,360,177,323,123,255"/>
 </map>

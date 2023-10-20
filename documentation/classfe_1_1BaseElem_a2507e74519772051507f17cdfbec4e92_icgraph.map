@@ -1,0 +1,7 @@
+<map id="fe::BaseElem::getQuadDatas" name="fe::BaseElem::getQuadDatas">
+<area shape="rect" id="Node000001" title="Get vector of quadrature data." alt="" coords="223,37,422,67"/>
+<area shape="rect" id="Node000002" href="$classfe_1_1Mesh.html#ad8e7d706e7378a729c22842bfbf6af3b" title="Compute the nodal volume." alt="" coords="11,5,169,35"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="207,39,169,34,170,28,208,34"/>
+<area shape="rect" id="Node000003" href="$classtools_1_1pp_1_1Compute.html#add3d16f70172ef6a1dedad2a34981077" title="Computes contribution to energy into crack from the quadrature point on contour." alt="" coords="5,59,175,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="207,70,176,74,175,69,207,65"/>
+</map>

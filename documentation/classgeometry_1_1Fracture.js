@@ -1,8 +1,8 @@
 var classgeometry_1_1Fracture =
 [
-    [ "Fracture", "classgeometry_1_1Fracture.html#a44816f1a643be0f0339ee8606244703e", null ],
+    [ "Fracture", "classgeometry_1_1Fracture.html#a639e914d13beae9f975204a7d1894901", null ],
     [ "Fracture", "classgeometry_1_1Fracture.html#a7dedaa6abbbe63bbeb1b6c5ae862febb", null ],
-    [ "addCrack", "classgeometry_1_1Fracture.html#aa94adf51dde42c98cbccbf372ae9108e", null ],
+    [ "addCrack", "classgeometry_1_1Fracture.html#a06f0c7c26f37809e580ee50c5a8171a3", null ],
     [ "computeFracturedBondFd", "classgeometry_1_1Fracture.html#abc52c5f7d68e8d738ac4bfcdcc0bbaa1", null ],
     [ "getBonds", "classgeometry_1_1Fracture.html#ad7c393124b7419a104b0837cbfeba8f0", null ],
     [ "getBondState", "classgeometry_1_1Fracture.html#ae2219abc0386e6709268ac981f27e2c2", null ],

@@ -37,7 +37,7 @@ var classdata_1_1DataManager =
     [ "setDilatationP", "classdata_1_1DataManager.html#ac9f820790aeccdc4df90df92c1a2ee58", null ],
     [ "setDisplacementLoadingP", "classdata_1_1DataManager.html#a9e6f55387d9586efb5585fe072ef4670", null ],
     [ "setDisplacementP", "classdata_1_1DataManager.html#a87867850831e8e2a28e9a88c42cb8b88", null ],
-    [ "setExtensionP", "classdata_1_1DataManager.html#a3b4742e509a838a48a6ac5e827138b03", null ],
+    [ "setExtensionP", "classdata_1_1DataManager.html#a8b5a45ca3d53c752fa690f505224cab4", null ],
     [ "setForceLoadingP", "classdata_1_1DataManager.html#a849adbf8d697454efb7ee33467e4a8d5", null ],
     [ "setForceP", "classdata_1_1DataManager.html#af0785a83763f13d7c8fbbd9803f858e0", null ],
     [ "setFractureEnergyP", "classdata_1_1DataManager.html#a0dcca9bc7ef6b670e34e0bb85bc12991", null ],

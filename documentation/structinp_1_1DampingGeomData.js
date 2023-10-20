@@ -1,6 +1,5 @@
 var structinp_1_1DampingGeomData =
 [
-    [ "DampingGeomData", "structinp_1_1DampingGeomData.html#a3eedf71534eb97c4a9fafa2be77c3ad0", null ],
     [ "print", "structinp_1_1DampingGeomData.html#a514a80f7cedf503f8e931a838b2a4097", null ],
     [ "printStr", "structinp_1_1DampingGeomData.html#a84753a69cc940d45aacafa4085e06d37", null ],
     [ "d_checkX", "structinp_1_1DampingGeomData.html#aa9f2efb0c783f68d7a10f26a9c41d678", null ],

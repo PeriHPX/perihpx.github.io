@@ -1,4 +1,5 @@
 <map id="inp::EdgeCrack" name="inp::EdgeCrack">
-<area shape="rect" id="node1" title="A structure to edge crack of any orientation." alt="" coords="5,585,143,883"/>
-<area shape="rect" id="node2" href="$structutil_1_1Point3.html" title="A structure to represent 3d vectors." alt="" coords="18,5,130,420"/>
+<area shape="rect" id="Node000001" title="A structure to edge crack of any orientation." alt="" coords="5,835,133,1272"/>
+<area shape="rect" id="Node000002" href="$structutil_1_1Point3.html" title="A structure to represent 3d vectors." alt="" coords="13,5,126,635"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="72,634,72,818,67,818,67,634"/>
 </map>

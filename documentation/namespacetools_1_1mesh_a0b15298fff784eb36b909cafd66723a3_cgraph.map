@@ -1,4 +1,5 @@
 <map id="tools::mesh::uniformTriSym" name="tools::mesh::uniformTriSym">
-<area shape="rect" id="node1" title="Generates uniform symmetric triangular mesh in 2&#45;d and writes the data to files specified in input fi..." alt="" coords="5,13,200,39"/>
-<area shape="rect" id="node2" href="$namespaceutil_1_1compare.html#afbc9630e288fb337b0a67e3cf6df02c9" title="Compares if a is &lt; to b." alt="" coords="248,5,417,47"/>
+<area shape="rect" id="Node000001" title="Generates uniform symmetric triangular mesh in 2&#45;d and writes the data to files specified in input fi..." alt="" coords="5,15,199,45"/>
+<area shape="rect" id="Node000002" href="$namespaceutil_1_1compare.html#afbc9630e288fb337b0a67e3cf6df02c9" title="Compares if a is &lt; to b." alt="" coords="247,5,415,54"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="199,27,231,27,231,32,199,32"/>
 </map>

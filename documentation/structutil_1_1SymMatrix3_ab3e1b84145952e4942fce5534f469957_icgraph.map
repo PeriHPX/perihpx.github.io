@@ -1,4 +1,5 @@
 <map id="util::SymMatrix3::det" name="util::SymMatrix3::det">
-<area shape="rect" id="node1" title="Computes the determinant of matrix." alt="" coords="203,5,355,32"/>
-<area shape="rect" id="node2" href="$structutil_1_1SymMatrix3.html#af55a79360a6f9e94444c84976d4ad27a" title="Computes the determinant of matrix." alt="" coords="5,5,155,32"/>
+<area shape="rect" id="Node000001" title="Computes the determinant of matrix." alt="" coords="202,5,353,35"/>
+<area shape="rect" id="Node000002" href="$structutil_1_1SymMatrix3.html#af55a79360a6f9e94444c84976d4ad27a" title="Computes the determinant of matrix." alt="" coords="5,5,154,35"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="186,23,154,23,154,18,186,18"/>
 </map>

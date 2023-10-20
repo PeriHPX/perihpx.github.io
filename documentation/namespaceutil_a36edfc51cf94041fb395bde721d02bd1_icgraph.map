@@ -1,0 +1,13 @@
+<map id="util::det" name="util::det">
+<area shape="rect" id="Node000001" title="Computes the determinant of matrix." alt="" coords="496,32,565,62"/>
+<area shape="rect" id="Node000002" href="$classfe_1_1TetElem.html#aadee2f6219ffc5c936d5f2ea855c952e" title="Computes the Jacobian of map ." alt="" coords="277,5,448,35"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="480,42,448,36,449,31,481,36"/>
+<area shape="rect" id="Node000003" href="$namespaceutil.html#a76bf29236b7065c3718ff181343c84f8" title="Computes the determinant of matrix." alt="" coords="329,59,396,88"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="481,57,396,71,395,66,480,52"/>
+<area shape="rect" id="Node000004" href="$classfe_1_1TetElem.html#a9b945d960dbf453968a1785741b8d66c" title="Returns the values of derivative of shape function at point p." alt="" coords="23,5,211,35"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="313,66,188,38,189,33,315,61"/>
+<area shape="rect" id="Node000005" href="$classfe_1_1TetElem.html#acf2316070778994bb2ad5240d1dd7609" title="Get vector of quadrature data." alt="" coords="23,59,211,88"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="314,76,211,76,211,71,314,71"/>
+<area shape="rect" id="Node000006" href="$classfe_1_1TetElem.html#a34d87462ff99f90f444ca83ee600d1aa" title="Maps point p in a given element to the reference element." alt="" coords="5,112,229,142"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="315,86,189,114,188,109,313,81"/>
+</map>

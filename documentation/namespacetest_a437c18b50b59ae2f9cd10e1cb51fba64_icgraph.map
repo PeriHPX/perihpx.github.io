@@ -1,4 +1,5 @@
 <map id="test::getExactIntegrationRefTri" name="test::getExactIntegrationRefTri">
-<area shape="rect" id="node1" title="Computes integration of polynomial exactly over reference triangle." alt="" coords="177,5,355,47"/>
-<area shape="rect" id="node2" href="$namespacetest.html#a311572ce36f2fef568a26def035b0908" title="Perform test on quadrature points on triangle elements." alt="" coords="5,13,129,39"/>
+<area shape="rect" id="Node000001" title="Computes integration of polynomial exactly over reference triangle." alt="" coords="177,5,353,54"/>
+<area shape="rect" id="Node000002" href="$namespacetest.html#a311572ce36f2fef568a26def035b0908" title="Perform test on quadrature points on triangle elements." alt="" coords="5,15,129,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,32,129,32,129,27,161,27"/>
 </map>

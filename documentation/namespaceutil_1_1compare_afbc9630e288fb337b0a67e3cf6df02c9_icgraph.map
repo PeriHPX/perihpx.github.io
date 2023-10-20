@@ -1,50 +1,115 @@
 <map id="util::compare::definitelyLessThan" name="util::compare::definitelyLessThan">
-<area shape="rect" id="node1" title="Compares if a is &lt; to b." alt="" coords="787,1007,956,1048"/>
-<area shape="rect" id="node2" href="$classgeometry_1_1Fracture.html#aa94adf51dde42c98cbccbf372ae9108e" title="Sets fracture state according to the crack data." alt="" coords="555,5,698,47"/>
-<area shape="rect" id="node3" href="$classfe_1_1Mesh.html#a4515421aaf61c23e104e97f9017967bf" title="Compute the bounding box" alt="" coords="540,71,713,98"/>
-<area shape="rect" id="node4" href="$classgeometry_1_1DampingGeom.html#aacf9e183af3929d530a5a75c34114d42" title="Compute damping coefficients at nodal coordinates." alt="" coords="252,105,460,147"/>
-<area shape="rect" id="node6" href="$classtools_1_1pp_1_1Compute.html#a2c300d94fc414d908ec8f4aede01270c" title="Compute J integral." alt="" coords="285,759,427,800"/>
-<area shape="rect" id="node8" href="$classfe_1_1Mesh.html#a63a72abf6d18ebfa92750319c19c10dd" title="Compute the mesh size." alt="" coords="527,766,726,793"/>
-<area shape="rect" id="node10" href="$classmaterial_1_1pd_1_1RNPBond.html#af079568a0690088248022d5d3be34031" title="Computes rnp material parameters from elastic constants." alt="" coords="545,817,709,859"/>
-<area shape="rect" id="node12" href="$classmaterial_1_1pd_1_1ElasticState.html#a2850a154581525b42edfc40c8408d939" title="Computes elastic state&#45;based material parameters from elastic constants." alt="" coords="539,883,714,924"/>
-<area shape="rect" id="node14" href="$classgeometry_1_1DataInterior.html#aa6dc71b179bc256215eb329a20622de0" title="Constructor." alt="" coords="271,301,441,343"/>
-<area shape="rect" id="node15" href="$namespaceutil_1_1function.html#a678e04c4b5078b7220abb3d1092c2fa3" title="Compute derivative of linear step function." alt="" coords="542,948,711,989"/>
-<area shape="rect" id="node17" href="$classtools_1_1pp_1_1Compute.html#a4b06981c5420f64495533732d7300175" title="Find node closest to given point." alt="" coords="556,1116,697,1157"/>
-<area shape="rect" id="node18" href="$classtools_1_1pp_1_1Compute.html#a50a563e380fb535e8436176742dea9c0" title="Finds new crack tip location from the rectangle data." alt="" coords="556,1181,697,1223"/>
-<area shape="rect" id="node19" href="$classloading_1_1FLoading.html#a51f45ecb6cc4adff834aa0821e7b4f07" title="Constructor." alt="" coords="287,171,425,212"/>
-<area shape="rect" id="node20" href="$classtools_1_1pp_1_1Compute.html#add3d16f70172ef6a1dedad2a34981077" title="Computes contribution to energy into crack from the quadrature point on contour." alt="" coords="541,1247,712,1288"/>
-<area shape="rect" id="node21" href="$classgeometry_1_1ComputeInterior.html#a34e6d34f705dcd9f8dbc771e89368122" title="Returns true if node is in interior, false otherwise." alt="" coords="257,628,455,669"/>
-<area shape="rect" id="node22" href="$classtools_1_1pp_1_1Compute.html#ab7325d693e9a02e41c6b14e0bfb5fdcd" title="Creates sequence of rectangles for crack tip search, and finds the ids of nodes in each rectangle and..." alt="" coords="245,693,467,735"/>
-<area shape="rect" id="node23" href="$namespaceutil_1_1function.html#accb96548858b499abcbc453e17beb04f" title="Computes hat function at given point." alt="" coords="536,1065,717,1091"/>
-<area shape="rect" id="node25" href="$namespaceutil_1_1function.html#a3e966ca08a54b479ba8c748ed6dc0c6c" title="Computes hat function at given point." alt="" coords="536,1312,717,1353"/>
-<area shape="rect" id="node26" href="$classtools_1_1pp_1_1Compute.html#aff23b67d63734646eb7b47992aaa1416" title="Interpolates displacement and velocity at given point." alt="" coords="556,1377,697,1419"/>
-<area shape="rect" id="node27" href="$namespaceutil_1_1geometry.html#ac45d600585563c36262e22a9ce365c03" title="Checks if point is inside an angled rectangle." alt="" coords="527,291,726,332"/>
-<area shape="rect" id="node28" href="$classloading_1_1ULoading.html#ab6300ad294de4a5cb4a2868b25063bb0" title="Constructor." alt="" coords="285,236,427,277"/>
-<area shape="rect" id="node29" href="$namespaceutil_1_1geometry.html#a9074704276f992ed2c536edac774b8d9" title="Checks if point is inside a cuboid (rectangle in 2&#45;d, line in 1&#45;d)" alt="" coords="527,173,726,215"/>
-<area shape="rect" id="node30" href="$namespaceutil_1_1geometry.html#aeb284531388e5db9935af0a0df93289e" title="Checks if point is inside a rectangle." alt="" coords="527,495,726,536"/>
-<area shape="rect" id="node35" href="$namespaceutil_1_1function.html#a189fb3c0a9613e0379cfbf5e17305528" title="Compute linear step function." alt="" coords="527,1014,727,1041"/>
-<area shape="rect" id="node36" href="$classfe_1_1LineElem.html#ab50235f06139153cf85ac168cf561ed7" title="Maps point p in a given element to the reference element." alt="" coords="537,1443,717,1484"/>
-<area shape="rect" id="node37" href="$classfe_1_1TetElem.html#a34d87462ff99f90f444ca83ee600d1aa" title="Maps point p in a given element to the reference element." alt="" coords="515,1509,739,1535"/>
-<area shape="rect" id="node38" href="$classfe_1_1TriElem.html#a88d42f8082ff10754608c085bc2b051c" title="Maps point p in a given element to the reference element." alt="" coords="516,1559,737,1586"/>
-<area shape="rect" id="node39" href="$structinp_1_1EdgeCrack.html#ad4527036d637fd95406b9af55317b409" title="Checks if point lies on left(top) or right(bottom) of crack." alt="" coords="535,1661,719,1687"/>
-<area shape="rect" id="node42" href="$structinp_1_1EdgeCrack.html#ae71605d2d30e381263c062059be12037" title="Checks if point lies outside the crack." alt="" coords="265,1610,447,1637"/>
-<area shape="rect" id="node43" href="$namespaceutil_1_1function.html#a51e0d439e6d84af2415121945c639ac3" title="Get vector with plus or minus 1 depending on the sign of component of another vector." alt="" coords="539,1711,714,1738"/>
-<area shape="rect" id="node44" href="$namespacetools_1_1mesh.html#a60bcb6e9910bf43b054d530860ddfc76" title="Generates uniform square mesh in 2&#45;d and writes the data to files specified in input filename." alt="" coords="529,1762,724,1789"/>
-<area shape="rect" id="node46" href="$namespacetools_1_1mesh.html#adcc239e43b9387e41d1452a7329b01ef" title="Generates uniform triangular mesh in 2&#45;d and writes the data to files specified in input filename." alt="" coords="543,1813,711,1839"/>
-<area shape="rect" id="node47" href="$namespacetools_1_1mesh.html#a0b15298fff784eb36b909cafd66723a3" title="Generates uniform symmetric triangular mesh in 2&#45;d and writes the data to files specified in input fi..." alt="" coords="529,1863,724,1890"/>
-<area shape="rect" id="node48" href="$classtools_1_1pp_1_1Compute.html#ac76d08a5c77f80f1719b3c96302b2085" title="Updates crack tip location and crack velocity." alt="" coords="556,1915,697,1956"/>
-<area shape="rect" id="node5" href="$classgeometry_1_1DampingGeom.html#ae8f5a9faccda85c6b2d512485e8bfdc1" title="Constructor." alt="" coords="8,105,195,147"/>
-<area shape="rect" id="node7" href="$classtools_1_1pp_1_1Compute.html#a3c1547d1022c17ed04824287f66deaa9" title="Constructor." alt="" coords="31,628,172,669"/>
-<area shape="rect" id="node9" href="$classfe_1_1Mesh.html#a0041afbb7d7e94bfb01c108e460196fb" title="Constructor." alt="" coords="297,825,415,851"/>
-<area shape="rect" id="node11" href="$classmaterial_1_1pd_1_1RNPBond.html#ac1817c8cd0dbd9005eccad098bc76ad4" title="Constructor." alt="" coords="274,876,438,917"/>
-<area shape="rect" id="node13" href="$classmaterial_1_1pd_1_1ElasticState.html#a2bf309c85caebaa9003d463112b54715" title="Constructor." alt="" coords="269,941,443,983"/>
-<area shape="rect" id="node16" href="$classloading_1_1ULoading.html#a4f0dc0464ec164c922f9ad01676f691d" title="Applies displacement boundary condition." alt="" coords="285,1007,427,1048"/>
-<area shape="rect" id="node24" href="$classloading_1_1FLoading.html#afd6fc4e3f8e7b9114b7126fca00c9e83" title="Applies displacement boundary condition." alt="" coords="287,1072,425,1113"/>
-<area shape="rect" id="node31" href="$classmodel_1_1FDModel.html#a0bc31f39b370762db87e7bf2d2c0c3ba" title="Checks if output frequency is to be modified." alt="" coords="250,367,462,408"/>
-<area shape="rect" id="node32" href="$classtools_1_1pp_1_1Compute.html#a6efdf56215010f91dc26dd061cfc65da" title="Decompose node list into two lists." alt="" coords="265,432,447,473"/>
-<area shape="rect" id="node33" href="$classtools_1_1pp_1_1Compute.html#ae4e5925c4be2bde7d2212938d66634eb" title="Initialize the class based on input data." alt="" coords="285,497,427,539"/>
-<area shape="rect" id="node34" href="$classtools_1_1pp_1_1Compute.html#ac46a2f435b8d4ca41cc1ca8ee82f3e3e" title="Find node within contour and elements intersecting contour." alt="" coords="251,563,461,604"/>
-<area shape="rect" id="node40" href="$classgeometry_1_1Fracture.html#abc52c5f7d68e8d738ac4bfcdcc0bbaa1" title="Sets state of bond which intersect the pre&#45;crack line as fractured." alt="" coords="5,1653,197,1695"/>
-<area shape="rect" id="node41" href="$structinp_1_1EdgeCrack.html#a1ef67c3dfee9058e14cc3e8899eedfa4" title="Checks if point lies on left(top) or right(bottom) of crack." alt="" coords="261,1711,451,1738"/>
-<area shape="rect" id="node45" href="$namespacetools_1_1mesh.html#abe5d0acf50737fa53e14e32a086c53c8" title="Generates uniform mesh in 2&#45;d and writes the data to files specified in input filename." alt="" coords="289,1813,423,1839"/>
+<area shape="rect" id="Node000001" title="Compares if a is &lt; to b." alt="" coords="784,1136,953,1185"/>
+<area shape="rect" id="Node000002" href="$classgeometry_1_1Fracture.html#a06f0c7c26f37809e580ee50c5a8171a3" title="Sets fracture state according to the crack data." alt="" coords="554,5,696,54"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="862,1120,847,888,820,554,802,387,781,240,758,128,746,90,734,67,717,52,695,42,697,37,720,48,738,64,751,88,764,127,786,239,807,386,825,554,853,888,868,1120"/>
+<area shape="rect" id="Node000003" href="$classfe_1_1Mesh.html#a4515421aaf61c23e104e97f9017967bf" title="Compute the bounding box" alt="" coords="539,78,711,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="865,1120,863,915,858,771,849,617,833,463,809,323,794,261,777,207,757,162,734,127,710,109,713,105,738,124,762,159,782,205,799,259,815,322,838,463,854,616,864,771,869,914,870,1120"/>
+<area shape="rect" id="Node000004" href="$classgeometry_1_1DampingGeom.html#aacf9e183af3929d530a5a75c34114d42" title="Compute damping coefficients at nodal coordinates." alt="" coords="251,104,459,153"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="862,1121,847,907,820,604,802,454,782,322,759,224,747,191,734,172,716,159,690,150,620,136,539,130,459,128,459,123,539,125,621,131,692,144,719,155,738,168,751,188,764,222,787,321,807,453,825,604,852,907,867,1120"/>
+<area shape="rect" id="Node000006" href="$classtools_1_1pp_1_1Compute.html#a2c300d94fc414d908ec8f4aede01270c" title="Compute J integral." alt="" coords="285,837,425,886"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="862,1121,853,1055,832,976,815,936,794,898,767,865,735,837,712,828,680,823,598,824,508,835,426,850,425,844,507,830,598,819,681,818,714,823,738,833,771,861,798,895,820,934,837,974,858,1054,867,1120"/>
+<area shape="rect" id="Node000008" href="$classfe_1_1Mesh.html#a63a72abf6d18ebfa92750319c19c10dd" title="Compute the mesh size." alt="" coords="526,847,723,877"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="857,1122,842,1069,818,1006,783,943,760,915,735,890,717,879,720,875,738,886,764,911,787,940,823,1004,847,1067,862,1120"/>
+<area shape="rect" id="Node000010" href="$classmaterial_1_1pd_1_1RNPBond.html#af079568a0690088248022d5d3be34031" title="Computes rnp material parameters from elastic constants." alt="" coords="543,900,706,949"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="849,1123,830,1085,804,1042,773,1000,735,964,706,947,708,942,738,960,777,997,809,1039,835,1082,853,1120"/>
+<area shape="rect" id="Node000012" href="$classmaterial_1_1pd_1_1ElasticState.html#a2850a154581525b42edfc40c8408d939" title="Computes elastic state&#45;based material parameters from elastic constants." alt="" coords="538,973,711,1022"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="836,1126,791,1080,735,1037,710,1025,713,1020,738,1033,794,1076,840,1123"/>
+<area shape="rect" id="Node000014" href="$classgeometry_1_1DataInterior.html#af3c13eb5c39298bcb6d9de7aa93fd49e" title="Constructor." alt="" coords="270,324,440,373"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="861,1120,846,989,820,813,803,724,783,643,760,576,734,529,709,501,685,483,660,471,634,463,578,448,546,437,512,420,488,403,464,388,435,376,437,371,466,383,491,399,514,415,548,432,580,443,636,458,662,466,688,479,713,498,739,525,765,573,788,641,808,723,825,812,851,988,866,1120"/>
+<area shape="rect" id="Node000015" href="$namespaceutil_1_1function.html#a678e04c4b5078b7220abb3d1092c2fa3" title="Compute derivative of linear step function." alt="" coords="541,1047,709,1095"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="794,1132,735,1110,704,1098,705,1093,737,1104,796,1127"/>
+<area shape="rect" id="Node000017" href="$classtools_1_1pp_1_1Compute.html#a4b06981c5420f64495533732d7300175" title="Find node closest to given point." alt="" coords="555,1225,695,1274"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="796,1193,737,1216,696,1230,694,1225,735,1211,794,1188"/>
+<area shape="rect" id="Node000018" href="$classtools_1_1pp_1_1Compute.html#a6087452f6c0dcb186f7c2cb2e32f7b45" title="Finds new crack tip location from the rectangle data." alt="" coords="555,1299,695,1347"/>
+<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="840,1198,794,1244,738,1288,696,1307,694,1302,735,1283,791,1240,836,1194"/>
+<area shape="rect" id="Node000019" href="$classloading_1_1FLoading.html#a51f45ecb6cc4adff834aa0821e7b4f07" title="Constructor." alt="" coords="286,177,424,226"/>
+<area shape="poly" id="edge18_Node000001_Node000019" title=" " alt="" coords="864,1120,859,944,852,823,841,695,825,568,802,453,772,358,754,322,734,294,709,272,685,259,661,252,636,251,580,252,548,250,512,244,424,222,425,217,514,239,548,245,580,246,636,245,662,247,687,254,712,268,738,291,759,319,777,356,807,451,830,567,846,694,857,823,864,943,870,1120"/>
+<area shape="rect" id="Node000020" href="$classtools_1_1pp_1_1Compute.html#add3d16f70172ef6a1dedad2a34981077" title="Computes contribution to energy into crack from the quadrature point on contour." alt="" coords="540,1372,709,1421"/>
+<area shape="poly" id="edge19_Node000001_Node000020" title=" " alt="" coords="853,1200,835,1238,809,1281,777,1324,738,1361,711,1377,708,1372,735,1357,773,1321,804,1278,830,1236,849,1198"/>
+<area shape="rect" id="Node000021" href="$classgeometry_1_1ComputeInterior.html#a34e6d34f705dcd9f8dbc771e89368122" title="Returns true if node is in interior, false otherwise." alt="" coords="256,691,454,739"/>
+<area shape="poly" id="edge20_Node000001_Node000021" title=" " alt="" coords="864,1121,858,1044,839,947,822,897,800,849,771,805,735,768,704,746,670,730,634,718,597,710,523,702,454,704,454,699,523,697,598,704,636,713,672,725,707,742,738,764,775,802,805,846,827,895,844,946,863,1043,870,1120"/>
+<area shape="rect" id="Node000022" href="$classtools_1_1pp_1_1Compute.html#a5e9e9e77ada22e23e890bb6620edf7cb" title="Creates sequence of rectangles for crack tip search, and finds the ids of nodes in each rectangle and..." alt="" coords="245,764,465,813"/>
+<area shape="poly" id="edge21_Node000001_Node000022" title=" " alt="" coords="863,1121,855,1051,834,966,818,922,796,880,769,843,735,812,705,793,672,780,638,770,603,764,532,762,466,767,465,762,532,756,603,759,639,765,674,775,707,789,738,808,773,839,801,878,823,920,839,964,860,1050,868,1120"/>
+<area shape="rect" id="Node000023" href="$namespaceutil_1_1function.html#accb96548858b499abcbc453e17beb04f" title="Computes hat function at given point." alt="" coords="535,1172,715,1202"/>
+<area shape="poly" id="edge22_Node000001_Node000023" title=" " alt="" coords="769,1174,715,1180,715,1174,769,1169"/>
+<area shape="rect" id="Node000025" href="$namespaceutil_1_1function.html#a3e966ca08a54b479ba8c748ed6dc0c6c" title="Computes hat function at given point." alt="" coords="535,1445,715,1494"/>
+<area shape="poly" id="edge24_Node000001_Node000025" title=" " alt="" coords="861,1201,846,1253,821,1316,786,1379,763,1408,738,1434,717,1449,714,1445,735,1430,759,1405,781,1376,816,1314,841,1252,856,1199"/>
+<area shape="rect" id="Node000026" href="$classtools_1_1pp_1_1Compute.html#aff23b67d63734646eb7b47992aaa1416" title="Interpolates displacement and velocity at given point." alt="" coords="555,1519,695,1567"/>
+<area shape="poly" id="edge25_Node000001_Node000026" title=" " alt="" coords="866,1201,854,1267,832,1349,815,1392,794,1434,769,1473,738,1508,719,1522,696,1532,694,1527,716,1518,735,1504,764,1470,790,1431,810,1390,827,1347,849,1266,860,1200"/>
+<area shape="rect" id="Node000027" href="$namespaceutil_1_1geometry.html#ac45d600585563c36262e22a9ce365c03" title="Checks if point is inside an angled rectangle." alt="" coords="526,304,723,353"/>
+<area shape="poly" id="edge26_Node000001_Node000027" title=" " alt="" coords="863,1120,852,961,829,742,812,630,791,527,765,441,750,408,734,382,720,367,702,355,705,351,723,363,738,379,755,405,770,439,796,525,817,629,834,741,857,961,868,1120"/>
+<area shape="rect" id="Node000028" href="$classloading_1_1ULoading.html#ab6300ad294de4a5cb4a2868b25063bb0" title="Constructor." alt="" coords="284,251,426,299"/>
+<area shape="poly" id="edge57_Node000001_Node000028" title=" " alt="" coords="862,1120,850,975,827,776,809,675,789,584,763,508,749,478,734,455,709,431,684,416,658,408,632,403,575,395,544,385,511,367,496,353,487,340,478,327,464,315,425,296,427,291,466,310,482,323,491,337,500,349,515,362,546,380,576,390,633,398,660,402,686,411,713,426,738,452,754,475,768,506,794,582,815,674,832,775,856,974,867,1120"/>
+<area shape="rect" id="Node000029" href="$namespaceutil_1_1geometry.html#a9074704276f992ed2c536edac774b8d9" title="Checks if point is inside a cuboid (rectangle in 2&#45;d, line in 1&#45;d)" alt="" coords="526,181,723,230"/>
+<area shape="poly" id="edge29_Node000001_Node000029" title=" " alt="" coords="864,1121,858,937,839,677,822,544,800,421,771,320,754,280,734,250,714,232,718,228,738,247,758,278,776,318,805,420,828,543,844,677,863,937,869,1120"/>
+<area shape="rect" id="Node000030" href="$namespaceutil_1_1geometry.html#aeb284531388e5db9935af0a0df93289e" title="Checks if point is inside a rectangle." alt="" coords="526,539,723,587"/>
+<area shape="poly" id="edge32_Node000001_Node000030" title=" " alt="" coords="860,1121,846,1039,822,930,785,808,762,748,734,691,716,662,694,634,652,589,655,586,698,631,720,659,739,688,766,746,790,806,827,928,851,1038,865,1120"/>
+<area shape="rect" id="Node000035" href="$namespaceutil_1_1geometry.html#aade1a5c50bd34cf316980ea42858ca22" title="Checks if point is inside a rectangle." alt="" coords="526,1592,723,1641"/>
+<area shape="poly" id="edge43_Node000001_Node000035" title=" " alt="" coords="869,1200,862,1279,842,1381,825,1434,803,1487,774,1537,738,1581,722,1594,719,1589,734,1577,770,1534,798,1485,820,1433,836,1379,856,1278,864,1200"/>
+<area shape="rect" id="Node000036" href="$namespaceutil_1_1function.html#a189fb3c0a9613e0379cfbf5e17305528" title="Compute linear step function." alt="" coords="525,1119,724,1149"/>
+<area shape="poly" id="edge44_Node000001_Node000036" title=" " alt="" coords="769,1152,724,1147,725,1142,769,1147"/>
+<area shape="rect" id="Node000037" href="$classfe_1_1LineElem.html#ab50235f06139153cf85ac168cf561ed7" title="Maps point p in a given element to the reference element." alt="" coords="535,1665,714,1714"/>
+<area shape="poly" id="edge47_Node000001_Node000037" title=" " alt="" coords="871,1200,868,1292,862,1350,851,1413,834,1477,811,1541,779,1601,738,1654,716,1671,713,1667,734,1650,775,1598,806,1539,829,1476,846,1412,856,1349,863,1291,866,1200"/>
+<area shape="rect" id="Node000038" href="$classfe_1_1TetElem.html#a34d87462ff99f90f444ca83ee600d1aa" title="Maps point p in a given element to the reference element." alt="" coords="513,1738,736,1767"/>
+<area shape="poly" id="edge48_Node000001_Node000038" title=" " alt="" coords="866,1201,852,1321,826,1479,809,1558,789,1629,765,1687,738,1727,723,1739,720,1735,734,1724,760,1685,783,1627,804,1556,821,1478,846,1320,861,1200"/>
+<area shape="rect" id="Node000039" href="$classfe_1_1TriElem.html#a88d42f8082ff10754608c085bc2b051c" title="Maps point p in a given element to the reference element." alt="" coords="515,1791,735,1821"/>
+<area shape="poly" id="edge49_Node000001_Node000039" title=" " alt="" coords="867,1201,854,1331,830,1505,813,1592,792,1671,767,1736,753,1762,738,1781,724,1792,720,1788,734,1777,749,1759,762,1734,787,1670,807,1591,824,1504,849,1331,862,1200"/>
+<area shape="rect" id="Node000040" href="$structinp_1_1EdgeCrack.html#ad4527036d637fd95406b9af55317b409" title="Checks if point lies on left(top) or right(bottom) of crack." alt="" coords="533,1844,716,1874"/>
+<area shape="poly" id="edge50_Node000001_Node000040" title=" " alt="" coords="868,1200,856,1341,833,1531,816,1627,795,1714,769,1785,754,1813,738,1834,719,1849,715,1844,734,1830,750,1810,764,1783,790,1712,811,1626,828,1530,851,1341,862,1200"/>
+<area shape="rect" id="Node000043" href="$structinp_1_1EdgeCrack.html#ae71605d2d30e381263c062059be12037" title="Checks if point lies outside the crack." alt="" coords="264,1896,446,1926"/>
+<area shape="poly" id="edge54_Node000001_Node000043" title=" " alt="" coords="869,1200,861,1353,841,1561,824,1665,802,1760,774,1837,757,1866,738,1888,717,1900,688,1909,613,1920,527,1922,446,1920,446,1915,527,1917,612,1914,687,1904,715,1895,735,1884,753,1863,769,1834,797,1758,819,1664,836,1560,856,1353,863,1200"/>
+<area shape="rect" id="Node000044" href="$namespaceutil_1_1function.html#a51e0d439e6d84af2415121945c639ac3" title="Get vector with plus or minus 1 depending on the sign of component of another vector." alt="" coords="538,1948,711,1978"/>
+<area shape="poly" id="edge56_Node000001_Node000044" title=" " alt="" coords="868,1201,859,1359,838,1577,821,1688,799,1790,772,1873,756,1906,738,1932,714,1950,710,1946,734,1928,751,1904,767,1871,794,1788,816,1687,833,1577,854,1359,863,1200"/>
+<area shape="rect" id="Node000045" href="$namespacetools_1_1mesh.html#a60bcb6e9910bf43b054d530860ddfc76" title="Generates uniform square mesh in 2&#45;d and writes the data to files specified in input filename." alt="" coords="528,2002,722,2031"/>
+<area shape="poly" id="edge58_Node000001_Node000045" title=" " alt="" coords="869,1200,863,1370,843,1607,827,1728,804,1839,775,1929,758,1965,738,1991,724,2003,721,1999,734,1988,753,1962,770,1927,799,1837,822,1727,838,1607,857,1370,864,1200"/>
+<area shape="rect" id="Node000047" href="$namespacetools_1_1mesh.html#adcc239e43b9387e41d1452a7329b01ef" title="Generates uniform triangular mesh in 2&#45;d and writes the data to files specified in input filename." alt="" coords="541,2055,708,2085"/>
+<area shape="poly" id="edge60_Node000001_Node000047" title=" " alt="" coords="870,1200,865,1380,858,1502,847,1633,830,1763,808,1881,777,1978,759,2016,738,2045,725,2056,710,2064,707,2059,722,2052,734,2041,754,2013,772,1976,802,1879,825,1762,841,1633,853,1502,859,1380,864,1200"/>
+<area shape="rect" id="Node000048" href="$namespacetools_1_1mesh.html#a0b15298fff784eb36b909cafd66723a3" title="Generates uniform symmetric triangular mesh in 2&#45;d and writes the data to files specified in input fi..." alt="" coords="528,2108,721,2138"/>
+<area shape="poly" id="edge62_Node000001_Node000048" title=" " alt="" coords="870,1200,867,1389,861,1519,850,1658,834,1797,811,1923,796,1978,779,2027,760,2067,738,2098,724,2110,720,2106,734,2095,756,2065,774,2025,791,1977,806,1922,829,1796,845,1658,855,1519,861,1389,865,1200"/>
+<area shape="rect" id="Node000049" href="$classtools_1_1pp_1_1Compute.html#ac76d08a5c77f80f1719b3c96302b2085" title="Updates crack tip location and crack velocity." alt="" coords="555,2161,695,2210"/>
+<area shape="poly" id="edge64_Node000001_Node000049" title=" " alt="" coords="870,1200,867,1398,861,1534,851,1682,834,1828,811,1963,797,2022,780,2074,760,2118,738,2151,719,2168,696,2178,694,2174,716,2163,734,2148,756,2115,775,2072,792,2021,806,1962,829,1828,845,1681,856,1534,862,1397,865,1200"/>
+<area shape="rect" id="Node000005" href="$classgeometry_1_1DampingGeom.html#ae8f5a9faccda85c6b2d512485e8bfdc1" title="Constructor." alt="" coords="8,104,194,153"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="236,131,194,131,194,126,236,126"/>
+<area shape="rect" id="Node000007" href="$classtools_1_1pp_1_1Compute.html#a3c1547d1022c17ed04824287f66deaa9" title="Constructor." alt="" coords="31,691,171,739"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="269,839,243,827,179,784,127,742,131,738,182,780,246,822,271,834"/>
+<area shape="rect" id="Node000009" href="$classfe_1_1Mesh.html#a0041afbb7d7e94bfb01c108e460196fb" title="Constructor." alt="" coords="296,910,414,939"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="543,883,415,913,414,908,542,878"/>
+<area shape="rect" id="Node000011" href="$classmaterial_1_1pd_1_1RNPBond.html#ac1817c8cd0dbd9005eccad098bc76ad4" title="Constructor." alt="" coords="273,963,437,1011"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="528,949,437,971,436,965,527,944"/>
+<area shape="rect" id="Node000013" href="$classmaterial_1_1pd_1_1ElasticState.html#a2bf309c85caebaa9003d463112b54715" title="Constructor." alt="" coords="268,1036,442,1085"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="524,1024,442,1043,441,1038,522,1019"/>
+<area shape="rect" id="Node000016" href="$classloading_1_1ULoading.html#a4f0dc0464ec164c922f9ad01676f691d" title="Applies displacement boundary condition." alt="" coords="284,1109,426,1158"/>
+<area shape="poly" id="edge15_Node000015_Node000016" title=" " alt="" coords="526,1097,427,1120,425,1115,524,1091"/>
+<area shape="rect" id="Node000024" href="$classloading_1_1FLoading.html#afd6fc4e3f8e7b9114b7126fca00c9e83" title="Applies displacement boundary condition." alt="" coords="286,1183,424,1231"/>
+<area shape="poly" id="edge23_Node000023_Node000024" title=" " alt="" coords="519,1197,424,1205,424,1199,519,1192"/>
+<area shape="poly" id="edge27_Node000027_Node000019" title=" " alt="" coords="532,299,511,288,497,276,487,264,478,253,464,241,423,222,426,218,466,237,482,249,491,260,500,272,515,283,535,295"/>
+<area shape="poly" id="edge28_Node000027_Node000028" title=" " alt="" coords="510,308,426,292,427,286,511,303"/>
+<area shape="poly" id="edge30_Node000029_Node000004" title=" " alt="" coords="522,179,442,156,443,151,524,174"/>
+<area shape="poly" id="edge31_Node000029_Node000019" title=" " alt="" coords="510,207,424,205,425,200,510,201"/>
+<area shape="poly" id="edge34_Node000030_Node000014" title=" " alt="" coords="563,532,536,512,511,487,495,460,488,435,481,411,463,388,438,371,441,367,467,384,486,409,493,433,500,458,515,484,539,508,566,528"/>
+<area shape="poly" id="edge36_Node000030_Node000019" title=" " alt="" coords="598,527,556,453,511,365,498,328,493,298,485,270,463,241,445,227,423,217,426,213,447,223,467,237,489,267,498,296,503,327,515,363,560,451,603,524"/>
+<area shape="poly" id="edge37_Node000030_Node000021" title=" " alt="" coords="585,599,530,641,466,680,439,693,436,688,464,675,527,636,582,595"/>
+<area shape="poly" id="edge38_Node000030_Node000022" title=" " alt="" coords="603,602,547,678,509,718,467,753,445,766,442,761,463,749,506,714,543,674,599,599"/>
+<area shape="poly" id="edge42_Node000030_Node000028" title=" " alt="" coords="590,528,550,478,511,419,497,388,491,362,483,338,463,314,445,301,425,292,427,287,448,297,467,310,487,336,496,361,502,387,515,416,555,475,594,525"/>
+<area shape="rect" id="Node000031" href="$classmodel_1_1FDModel.html#a0bc31f39b370762db87e7bf2d2c0c3ba" title="Checks if output frequency is to be modified." alt="" coords="249,397,461,446"/>
+<area shape="poly" id="edge33_Node000030_Node000031" title=" " alt="" coords="574,532,513,491,464,461,435,449,437,444,466,457,516,486,577,527"/>
+<area shape="rect" id="Node000032" href="$classtools_1_1pp_1_1Compute.html#a6efdf56215010f91dc26dd061cfc65da" title="Decompose node list into two lists." alt="" coords="264,471,446,519"/>
+<area shape="poly" id="edge35_Node000030_Node000032" title=" " alt="" coords="510,537,446,521,447,515,511,532"/>
+<area shape="rect" id="Node000033" href="$classtools_1_1pp_1_1Compute.html#ae4e5925c4be2bde7d2212938d66634eb" title="Initialize the class based on input data." alt="" coords="285,544,425,593"/>
+<area shape="poly" id="edge39_Node000030_Node000033" title=" " alt="" coords="510,568,425,570,425,564,510,563"/>
+<area shape="rect" id="Node000034" href="$classtools_1_1pp_1_1Compute.html#ac46a2f435b8d4ca41cc1ca8ee82f3e3e" title="Find node within contour and elements intersecting contour." alt="" coords="251,617,459,666"/>
+<area shape="poly" id="edge41_Node000030_Node000034" title=" " alt="" coords="525,595,442,619,440,614,523,590"/>
+<area shape="poly" id="edge40_Node000033_Node000007" title=" " alt="" coords="271,596,246,608,182,650,131,692,127,688,179,646,243,603,269,591"/>
+<area shape="poly" id="edge46_Node000036_Node000016" title=" " alt="" coords="509,1136,426,1136,426,1131,509,1131"/>
+<area shape="poly" id="edge45_Node000036_Node000024" title=" " alt="" coords="543,1155,514,1163,425,1188,424,1183,512,1158,542,1150"/>
+<area shape="rect" id="Node000041" href="$classgeometry_1_1Fracture.html#abc52c5f7d68e8d738ac4bfcdcc0bbaa1" title="Sets state of bond which intersect the pre&#45;crack line as fractured." alt="" coords="5,1835,197,1883"/>
+<area shape="poly" id="edge51_Node000040_Node000041" title=" " alt="" coords="517,1862,197,1862,197,1856,517,1856"/>
+<area shape="rect" id="Node000042" href="$structinp_1_1EdgeCrack.html#a1ef67c3dfee9058e14cc3e8899eedfa4" title="Checks if point lies on left(top) or right(bottom) of crack." alt="" coords="260,1792,450,1822"/>
+<area shape="poly" id="edge52_Node000040_Node000042" title=" " alt="" coords="529,1843,435,1825,436,1820,530,1838"/>
+<area shape="poly" id="edge53_Node000042_Node000041" title=" " alt="" coords="265,1828,198,1842,197,1837,264,1823"/>
+<area shape="poly" id="edge55_Node000043_Node000041" title=" " alt="" coords="264,1895,197,1881,198,1876,265,1890"/>
+<area shape="rect" id="Node000046" href="$namespacetools_1_1mesh.html#abe5d0acf50737fa53e14e32a086c53c8" title="Generates uniform mesh in 2&#45;d and writes the data to files specified in input filename." alt="" coords="289,2055,421,2085"/>
+<area shape="poly" id="edge59_Node000045_Node000046" title=" " alt="" coords="532,2037,422,2059,421,2054,531,2032"/>
+<area shape="poly" id="edge61_Node000047_Node000046" title=" " alt="" coords="526,2072,422,2072,422,2067,526,2067"/>
+<area shape="poly" id="edge63_Node000048_Node000046" title=" " alt="" coords="531,2107,421,2085,422,2080,532,2102"/>
 </map>

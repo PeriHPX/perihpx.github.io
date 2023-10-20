@@ -1,0 +1,11 @@
+<map id="geometry::DataInterior::DataInterior" name="geometry::DataInterior::DataInterior">
+<area shape="rect" id="Node000001" title="Constructor." alt="" coords="5,53,175,102"/>
+<area shape="rect" id="Node000002" href="$namespaceutil_1_1compare.html#a01f7d35cb54e6e1274397c07dc843f63" title="Compares if a &gt; to b." alt="" coords="468,5,636,54"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="170,50,222,39,341,27,452,25,452,30,342,33,223,44,171,55"/>
+<area shape="rect" id="Node000003" href="$namespaceutil_1_1compare.html#afbc9630e288fb337b0a67e3cf6df02c9" title="Compares if a is &lt; to b." alt="" coords="468,91,636,139"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="170,100,223,111,342,120,452,119,452,124,342,125,222,116,169,105"/>
+<area shape="rect" id="Node000004" href="$namespaceutil_1_1geometry.html#aeb284531388e5db9935af0a0df93289e" title="Checks if point is inside a rectangle." alt="" coords="223,53,420,102"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="175,75,207,75,207,80,175,80"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="420,55,452,48,453,53,421,60"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="421,91,453,96,452,102,420,96"/>
+</map>

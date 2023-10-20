@@ -1,0 +1,8 @@
+<map id="util::inv" name="util::inv">
+<area shape="rect" id="Node000001" title="Computes the determinant of matrix." alt="" coords="5,5,72,35"/>
+<area shape="rect" id="Node000002" href="$namespaceutil.html#a6f8af769664ae2dbbf976e7d40703d0f" title="Checks matrix." alt="" coords="237,5,360,35"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="72,17,120,16,222,16,221,22,120,21,72,22"/>
+<area shape="rect" id="Node000003" href="$namespaceutil.html#a36edfc51cf94041fb395bde721d02bd1" title="Computes the determinant of matrix." alt="" coords="120,31,189,60"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="73,25,105,32,104,37,71,30"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="189,37,221,31,222,36,190,42"/>
+</map>

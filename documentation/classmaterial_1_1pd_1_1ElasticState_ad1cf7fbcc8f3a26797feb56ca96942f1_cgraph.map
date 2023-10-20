@@ -1,5 +1,7 @@
 <map id="material::pd::ElasticState::dirac_delta" name="material::pd::ElasticState::dirac_delta">
-<area shape="rect" id="node1" title="Provide the image of x under the Dirac Delta Function." alt="" coords="5,35,180,76"/>
-<area shape="rect" id="node2" href="$namespaceutil_1_1compare.html#aee36cc8b86ae0244f6dd51d9426cd344" title="Compares if a is essentially equal to b." alt="" coords="228,5,403,47"/>
-<area shape="rect" id="node3" href="$structutil_1_1Point3.html#a0c01ff20100b99b130d81f38ad93941e" title="Computes the Euclidean length of the vector." alt="" coords="247,71,384,98"/>
+<area shape="rect" id="Node000001" title="Provide the image of x under the Dirac Delta Function." alt="" coords="5,37,179,86"/>
+<area shape="rect" id="Node000002" href="$namespaceutil_1_1compare.html#aee36cc8b86ae0244f6dd51d9426cd344" title="Compares if a is essentially equal to b." alt="" coords="227,5,401,54"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="179,46,211,42,212,47,180,52"/>
+<area shape="rect" id="Node000003" href="$structutil_1_1Point3.html#a0c01ff20100b99b130d81f38ad93941e" title="Computes the Euclidean length of the vector." alt="" coords="246,78,382,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="180,71,230,78,230,83,179,76"/>
 </map>
